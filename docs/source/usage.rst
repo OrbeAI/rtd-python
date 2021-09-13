@@ -1,14 +1,14 @@
 PYTHON: INTRODUÇÃO.
 =====
 
-.. 01.”Olá, mundo!”:
+.. 01.PRIMEIROS PASSOS:
 
 01.”Olá, mundo!”
 ------------
 
 Talvez a primeira coisa que aprendemos a fazer quando começamos a estudar uma linguagem de programação é imprimir a frase “Hello, world!” (“Olá, mundo!”).
 
-Para isso usamos o comando ``print("Texto a ser impresso aqui)``
+Para isso usamos o comando ``print("Texto a ser impresso aqui")``
 
 .. code-block:: console
 
