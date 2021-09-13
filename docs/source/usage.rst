@@ -20,7 +20,8 @@ Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
 
 Em Python alguns caracteres são especiais e tem uma funcionalidade específica. 
 
-O primeiro que veremos é o ``#``. Quando começamos uma linha com o caracter “#” o texto não é interpretado pelo computador e ainda fica na cor verde.
+O primeiro que veremos é o ``#``. Quando começamos uma linha com o caracter “#” o texto não é interpretado pelo computador e fica na cor verde.
+
 Isto é um comentário, ou seja, um pedaço do texto que deixamos dentro do código para que outras pessoas (ou nós mesmos no futuro) possam entender melhor o que estamos fazendo ao longo do código.
 
 .. code-block:: console
