@@ -11,10 +11,8 @@ Talvez a primeira coisa que aprendemos a fazer quando começamos a estudar uma l
 Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
 
 ```python
-
    print("Olá, mundo!")
-   >>> Olá, mundo!
-   
+   >>> Olá, mundo!   
 ```
    
 01.b.Comentários no código.
@@ -27,7 +25,5 @@ O primeiro que veremos é o ``#``. Quando começamos uma linha com o caracter �
 Isto é um comentário, ou seja, um pedaço do texto que deixamos dentro do código para que outras pessoas (ou nós mesmos no futuro) possam entender melhor o que estamos fazendo ao longo do código.
 
 ```python
-
-    #Isto é um comentário
-    
+    #Isto é um comentário 
 ```
