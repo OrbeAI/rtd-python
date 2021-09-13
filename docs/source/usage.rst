@@ -11,6 +11,7 @@ Talvez a primeira coisa que aprendemos a fazer quando começamos a estudar uma l
 Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
 
 .. code-block:: console
+
    print("Olá, mundo!")
    >>> Olá, mundo!
 
@@ -26,4 +27,5 @@ Isto é um comentário, ou seja, um pedaço do texto que deixamos dentro do cód
 
 
 .. code-block:: console
+
    #Isto é um comentário
