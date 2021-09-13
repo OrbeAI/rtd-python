@@ -25,4 +25,13 @@ O primeiro que veremos é o ``#``. Quando começamos uma linha com o caracter �
 Isto é um comentário, ou seja, um pedaço do texto que deixamos dentro do código para que outras pessoas (ou nós mesmos no futuro) possam entender melhor o que estamos fazendo ao longo do código.
 
 .. code-block:: console
+    
     #Isto é um comentário
+
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
