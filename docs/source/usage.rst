@@ -1,4 +1,4 @@
-PYTHON: VARIÁVEIS.
+PYTHON: INTRODUÇÃO.
 =====
 
 .. 01.”Olá, mundo!”:
@@ -8,12 +8,13 @@ PYTHON: VARIÁVEIS.
 
 Talvez a primeira coisa que aprendemos a fazer quando começamos a estudar uma linguagem de programação é imprimir a frase “Hello, world!” (“Olá, mundo!”).
 
-print(“texto a ser impresso aqui”)
+Para isso usamos o comando ``print("Texto a ser impresso aqui)``
 
 .. code-block:: console
 
    print("Olá, mundo!")
-
+   >>> Olá, mundo!
+   
 Creating recipes
 ----------------
 
