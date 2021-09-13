@@ -1,16 +1,18 @@
 PYTHON: VARIÁVEIS.
 =====
 
-.. _installation:
+.. 01.”Olá, mundo!”:
 
-Installation
+01.”Olá, mundo!”
 ------------
 
-To use Lumache, first install it using pip:
+Talvez a primeira coisa que aprendemos a fazer quando começamos a estudar uma linguagem de programação é imprimir a frase “Hello, world!” (“Olá, mundo!”).
+
+print(“texto a ser impresso aqui”)
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   print("Olá, mundo!")
 
 Creating recipes
 ----------------
