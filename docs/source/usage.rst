@@ -15,23 +15,14 @@ Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
    print("Olá, mundo!")
    >>> Olá, mundo!
    
-Creating recipes
+01.b.Comentários no código.
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Em Python alguns caracteres são especiais e tem uma funcionalidade específica. 
 
-.. autofunction:: lumache.get_random_ingredients
+O primeiro que veremos é o ``#``. Quando começamos uma linha com o caracter “#” o texto não é interpretado pelo computador e ainda fica na cor verde.
+Isto é um comentário, ou seja, um pedaço do texto que deixamos dentro do código para que outras pessoas (ou nós mesmos no futuro) possam entender melhor o que estamos fazendo ao longo do código.
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+.. code-block:: console
 
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+   # Isto é um comentário
