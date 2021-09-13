@@ -1,4 +1,4 @@
-Usage
+PYTHON: VARIÁVEIS.
 =====
 
 .. _installation:
