@@ -10,12 +10,10 @@ Talvez a primeira coisa que aprendemos a fazer quando começamos a estudar uma l
 
 Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
 
-```python
+.. code-block:: console
+   print("Olá, mundo!")
+   >>> Olá, mundo!
 
-print("Olá, mundo!")
->>> Olá, mundo!
-
-```
    
 01.b.Comentários no código.
 ----------------
@@ -26,28 +24,6 @@ O primeiro que veremos é o ``#``. Quando começamos uma linha com o caracter �
 
 Isto é um comentário, ou seja, um pedaço do texto que deixamos dentro do código para que outras pessoas (ou nós mesmos no futuro) possam entender melhor o que estamos fazendo ao longo do código.
 
-```python
 
-#Isto é um comentário
-
-```
-
-```python
-import donkey as dk
-
-#initialize the vehicle
-V = dk.Vehicle()
-
-#add a camera part
-cam = dk.parts.PiCamera()
-V.add(cam, outputs=['image'], threaded=True)
-
-#add tub part to record images
-tub = dk.parts.Tub(path='~/mycar/data',
-                   inputs=['image'],
-                   types=['image_array'])
-V.add(tub, inputs=inputs)
-
-#start the vehicle's drive loop
-V.start(max_loop_count=100)
-```
+.. code-block:: console
+   #Isto é um comentário
