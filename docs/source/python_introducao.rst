@@ -1,8 +1,8 @@
-PYTHON: INTRODUÇÃO.
-=====
+#PYTHON: INTRODUÇÃO.
+********************
 
-01.”Olá, mundo!”
-------------
+#01.”Olá, mundo!”
+=================
 
 Talvez a primeira coisa que aprendemos a fazer quando começamos a estudar uma linguagem de programação é imprimir a frase “Hello, world!” (“Olá, mundo!”).
 
@@ -14,7 +14,7 @@ Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
    >>> Olá, mundo!
 
    
-01.b.Comentários no código.
+01.a.Comentários no código.
 ----------------
 
 Em Python alguns caracteres são especiais e tem uma funcionalidade específica. 
@@ -31,7 +31,7 @@ Isto é um comentário, ou seja, um pedaço do texto que deixamos dentro do cód
    
    
 02.Variáveis
-----------------
+===================
 
 **Variável é como se fosse uma gaveta na memória do computador.**
 
@@ -105,3 +105,9 @@ Exemplo:
    
 Mas por enquanto não se preocupe com ele, falaremos sobre ele mais adiante.
 
+
+03.Comando print( ) com variáveis.
+===================
+
+03.a.Como usar uma variável com o comando print().
+----------------
