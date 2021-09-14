@@ -10,7 +10,7 @@ Talvez a primeira coisa que aprendemos a fazer quando começamos a estudar uma l
 
 Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
 
-.. code-block:: console
+.. code-block:: python
 
    print("Olá, mundo!")
    >>> Olá, mundo!
@@ -24,11 +24,6 @@ Em Python alguns caracteres são especiais e tem uma funcionalidade específica.
 O primeiro que veremos é o ``#``. Quando começamos uma linha com o caracter “#” o texto não é interpretado pelo computador e fica na cor verde.
 
 Isto é um comentário, ou seja, um pedaço do texto que deixamos dentro do código para que outras pessoas (ou nós mesmos no futuro) possam entender melhor o que estamos fazendo ao longo do código.
-
-
-.. code-block:: console
-
-   #Isto é um comentário
 
 
 .. code-block:: python
