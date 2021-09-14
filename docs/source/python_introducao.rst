@@ -31,8 +31,6 @@ Isto é um comentário, ou seja, um pedaço do texto que deixamos dentro do cód
    #Isto é um comentário
 
 
-::
-   #Isto é um comentário
-
 .. code-block:: python
+   
    #Isto é um comentário
