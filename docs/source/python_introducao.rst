@@ -135,10 +135,12 @@ Poderíamos obter o resultado da mesma forma com o código:
 
 .. code-block:: python
    
+   #Imprimindo a soma dos valores 4 e 3
    print(4 + 3)
    
    >>> 7 
    
+   #Imprimindo o valor 7
    print(7)
    
    >>>7
