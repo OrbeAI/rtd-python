@@ -217,3 +217,26 @@ Exemplo:
    
    
    
+03.b.I.Diferentes formas de usar valores no marcador de posição.
+----------------
+
+Quando temos muitas variáveis, podemos usar **índices dentro dos marcadores de posição** para nos ajudar a organizar com o comando ``format( )``.
+
+Por exemplo:
+
+.. code-block:: python
+
+   #Marcador de posição vazio
+   print("Meu nome é {} e eu tenho {} anos.format(primeiro_nome, idade)) 
+   
+   >>> Meu nome é Rafael e eu tenho 33 anos
+   
+   #Marcador de posição com índices numéricos
+   print("Meu nome é {0} e eu tenho {1} anos.format(primeiro_nome, idade)) 
+   
+   >>> Meu nome é Rafael e eu tenho 33 anos
+   
+   #Marcador de posição com índices nomeados
+   print("Meu nome é {} e eu tenho {} anos.format(nome_indice_01 = primeiro_nome, nome_indice_02 = idade)) 
+   
+   >>> Meu nome é Rafael e eu tenho 33 anos
