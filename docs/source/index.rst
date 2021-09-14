@@ -23,7 +23,7 @@ Contents
    python_introducao
    
 .. toctree::
-   :caption: Pandas
+   :caption: MACHINE LEARNING
    :maxdepth: 1 
    
-   api
+   machine_learning
