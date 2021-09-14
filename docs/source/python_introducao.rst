@@ -109,5 +109,52 @@ Mas por enquanto não se preocupe com ele, falaremos sobre ele mais adiante.
 03.Comando print( ) com variáveis.
 ===================
 
+Para exemplificar o porque utilizar o comando ``print( )`` com variáveis pense no seguinte código:
+
+.. code-block:: python
+   
+   #Somando variáveis
+   
+   a = 4
+   b = 3
+   print(a + b)
+   >>> 7 
+
+Você pode se perguntar:
+*Por que criar duas variáveis ``a`` e ``b`` para somar dois números?*
+
+Poderíamos obter o resultado da mesma forma com o código: 
+
+.. code-block:: python
+   
+   print(4 + 3)
+   >>> 7 
+   
+   print(7)
+   
+Escolhemos usar variáveis para mostrar uma grande diferença entre resolver um problema no papel e no computador:
+
+- **Programar é descrever passos para a solução do problema**, portanto é aconselhável descrever os passos de forma que consiga alterá-los com facilidade e mais importante, que possa **entendê-los depois**.
+
+- Quando se escreve ``print(4 + 3)`` o problema foi a soma de 4 e 3, se precisar mudar alguma parte desse problema, irá precisar escrever outro programa. 
+
+- Quando se escreve ``print(7)`` não se descreve nenhum problema em si. 
+
+**A diferença está na clareza da representação do nosso problema**.
+
+Portanto sempre escreva seus programas de forma a que seus códigos sejam limpos, organizados e minuciosos. Caso ainda não tenha ficado claro, pense no seguinte programa para calcular o aumento de salário:
+
+.. code-block:: python
+
+   #Programa para cálcular de aumento de salário
+   
+   salario = 1500
+   aumento = 5
+   print(salario + (salario * aumento / 100))
+   >>> 1575
+   
+No problema anterior, é possível alterar o valor das variáveis ``salário`` ou ``aumente`` sem que precise reescrever o programa inteiro, dessa forma pode-se utilizar o código para outro salário e outro aumento. 
+
 03.a.Como usar uma variável com o comando print().
 ----------------
+
