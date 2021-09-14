@@ -30,7 +30,7 @@ Isto é um comentário, ou seja, um pedaço do texto que deixamos dentro do cód
    
    
    
- 02.Variáveis
+02.Variáveis
 ----------------
 
 **Variável é como se fosse uma gaveta na memória do computador.**
@@ -45,7 +45,7 @@ Ex: tiramos as camisetas e colocamos calças.
 Uma variável é criada na primeira vez que um valor é armazenado nela.
 
  
- 02.a.Nomenclatura de variáveis.
+02.a.Nomenclatura de variáveis.
 ----------------
 
 +------------------+--------+------------------------------------------------------------------------+
