@@ -17,6 +17,12 @@ Contents
 --------
 
 .. toctree::
+   :caption: Python
+   :maxdepth: 1
 
    python_introducao
+   
+.. toctree::
+   :caption: Pandas
+   :maxdepth: 1   
    api
