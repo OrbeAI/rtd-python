@@ -85,3 +85,21 @@ No código acima:
 - ``idade`` é o **nome da variável**
 - ``=`` é o **operador de atribuição**
 - ``33`` é o **valor armazenado na variável**
+
+
+
+02.c.Observações.
+----------------
+
+Repare que na programação, o **operador de atribuição possui uma função diferente do sinal de igual da matemática**.
+
+O sinal de **igual da matemática é chamado de operador de comparação** é escrito desta forma ``==``.
+
+Exemplo:
+.. code-block:: python
+   
+   idade == 33
+   >>> True
+   
+Mas por enquanto não se preocupe com ele, falaremos sobre ele mais adiante.
+
