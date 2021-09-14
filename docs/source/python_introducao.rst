@@ -76,6 +76,7 @@ Para criarmos uma variável usamos o símbolo de igualdade ``=`` entre o nome do
 Portanto em programação o símbolo de igualdade ``=`` é chamado de **operador de atribuição**.
 
 Por exemplo:
+
 .. code-block:: python
    
    idade = 33  
@@ -96,6 +97,7 @@ Repare que na programação, o **operador de atribuição possui uma função di
 O sinal de **igual da matemática é chamado de operador de comparação** é escrito desta forma ``==``.
 
 Exemplo:
+
 .. code-block:: python
    
    idade == 33
