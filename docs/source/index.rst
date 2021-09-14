@@ -17,7 +17,7 @@ Contents
 --------
 
 .. toctree::
-   :caption: Python
+   :caption: PYTHON
    :maxdepth: 1
 
    python_introducao
