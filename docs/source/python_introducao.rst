@@ -79,6 +79,7 @@ Por exemplo:
 
 .. code-block:: python
    
+   #Criando uma variável chamada idade
    idade = 33  
    
 No código acima:
@@ -113,10 +114,13 @@ Para exemplificar o porque utilizar o comando ``print( )`` com variáveis pense 
 
 .. code-block:: python
    
-   #Somando variáveis
-   
+   #Criando uma variável "a" e atribuindo o valor de 4
    a = 4
+   
+   #Criando uma variável "b" e atribuindo o valor de 3
    b = 3
+   
+   #Exibindo a soma da variável "a" com "b" usando o comando print( )
    print(a + b)
    >>> 7 
 
@@ -131,6 +135,7 @@ Poderíamos obter o resultado da mesma forma com o código:
    >>> 7 
    
    print(7)
+   >>>7
    
 Escolhemos usar variáveis para mostrar uma grande diferença entre resolver um problema no papel e no computador:
 
@@ -148,13 +153,60 @@ Portanto sempre escreva seus programas de forma a que seus códigos sejam limpos
 
    #Programa para cálcular de aumento de salário
    
+   #Criando a variável "salario"
    salario = 1500
+   
+   #Definindo o valor do aumento em %
    aumento = 5
+   
+   #Imprimindo o valor da soma do salario com o aumento.
    print(salario + (salario * aumento / 100))
    >>> 1575
    
 No problema anterior, é possível alterar o valor das variáveis ``salário`` ou ``aumente`` sem que precise reescrever o programa inteiro, dessa forma pode-se utilizar o código para outro salário e outro aumento. 
 
-03.a.Como usar uma variável com o comando print().
+03.a.Como usar uma variável com o comando ``print()``.
 ----------------
 
+Agora que já entendemos por que utilizarmos o comando ``print( )`` com variáveis, veremos como.
+
+Para imprimirmos o valor de uma variável com o comando ``print( )``, basta adicionarmos a variável dentro dos parênteses do comando print( ).
+
+Exemplo:
+
+.. code-block:: python
+
+   #Criando uma variável chamada "primeiro_nome"
+   primeiro_nome = "Rafael"
+   
+   #Usando o comando print( ) para imprimir o valor da variável "primeiro_nome"
+   print(primeiro_nome)
+  
+   >>> Rafael
+   
+03.b.Usando mais que uma variável com o comando ``print( )``.
+----------------
+
+Em uma frase com mais de uma variável podemos utilizar o comando ``format``.
+
+O comando ``format( )`` formata um valor para o formato de texto e o insere dentro de um marcador de posição (placeholder).
+
+O marcador de posição é definido usando colchetes ``{ }``.
+
+Exemplo:
+
+.. code-block:: python
+
+   #Criando uma variável chamada "primeiro_nome"
+   primeiro_nome = "Rafael"
+   
+   #Criando uma variável chamada "idade"
+   idade = 33 
+   
+   #Usando o comando format( ) com o comando print( )
+   print("Meu nome é {} e eu tenho {} anos.format(primeiro_nome, idade)) 
+   
+   >>> Meu nome é Rafael e eu tenho 33 anos
+   
+   
+   
