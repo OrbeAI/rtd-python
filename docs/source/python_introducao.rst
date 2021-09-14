@@ -81,6 +81,7 @@ Por exemplo:
    idade = 33  
    
 No código acima:
-* ``idade`` é o **nome da variável**
-* ``=`` é o **operador de atribuição**
-* ``33`` é o **valor armazenado na variável**
+
+- ``idade`` é o **nome da variável**
+- ``=`` é o **operador de atribuição**
+- ``33`` é o **valor armazenado na variável**
