@@ -24,5 +24,6 @@ Contents
    
 .. toctree::
    :caption: Pandas
-   :maxdepth: 1   
+   :maxdepth: 1 
+   
    api
