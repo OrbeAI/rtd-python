@@ -1,8 +1,6 @@
 PYTHON: INTRODUÇÃO.
 =====
 
-.. 01.PRIMEIROS PASSOS:
-
 01.”Olá, mundo!”
 ------------
 
@@ -31,7 +29,8 @@ Isto é um comentário, ou seja, um pedaço do texto que deixamos dentro do cód
    #Isto é um comentário
    
    
-  02.Variáveis
+   
+ 02.Variáveis
 ----------------
 
 **Variável é como se fosse uma gaveta na memória do computador.**
@@ -45,15 +44,24 @@ Ex: tiramos as camisetas e colocamos calças.
 **Em programação uma variável armazena um valor**, que pode ser inúmeras coisas, desde texto, números, resultados de contas e etc.
 Uma variável é criada na primeira vez que um valor é armazenado nela.
 
-  02.a.Nomenclatura de variáveis.
+ 
+ 02.a.Nomenclatura de variáveis.
 ----------------
 
-| Nome da Variável | Válido | Comentários |
-|------------------|--------|-------------------------------------------------|
-| a3               |  SIM   | Python permite que uma variável contenha números|
-| idade            |  SIM   | Nome formado por letras                         |
-| idade90          |  SIM   | Nome formado por letras e números               |
-| salario_medio    |  SIM   | O símbolo _ é permitido                         |
-| salario medio    |  NÃO   | Nome de variáveis podem conter espaços          |
-| _b               |  SIM   | O símbolo _ é permitido em variáveis            |
-| 2a               |  NÃO   | Variáveis não podem começar com números         |
++------------------+--------+------------------------------------------------------------------------+
+| Nome da Variável | Válido |                               Comentários                              |
++------------------+--------+------------------------------------------------------------------------+
+|        a3        |   SIM  | Python permite que uma variável contenha números, porém não no começo. |
++------------------+--------+------------------------------------------------------------------------+
+|       idade      |   SIM  |                        Nome formado por letras.                        |
++------------------+--------+------------------------------------------------------------------------+
+|      idade90     |   SIM  |                   Nome formado por letras e números.                   |
++------------------+--------+------------------------------------------------------------------------+
+|   salario_medio  |   SIM  |              O símbolo _ é permitido e facilita a leitura.             |
++------------------+--------+------------------------------------------------------------------------+
+|   salario medio  |   NÃO  |                   Variáveis não podem conter espaços.                  |
++------------------+--------+------------------------------------------------------------------------+
+|        _b        |   SIM  |                  O símbolo _ é permitido em variáveis.                 |
++------------------+--------+------------------------------------------------------------------------+
+|        2a        |   NÃO  |                Variáveis não podem começar com números.                |
++------------------+--------+------------------------------------------------------------------------+
