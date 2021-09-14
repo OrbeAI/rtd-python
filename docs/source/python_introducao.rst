@@ -65,3 +65,22 @@ Uma variável é criada na primeira vez que um valor é armazenado nela.
 +------------------+--------+------------------------------------------------------------------------+
 |        2a        |   NÃO  |                Variáveis não podem começar com números.                |
 +------------------+--------+------------------------------------------------------------------------+
+
+
+
+02.b.Criando uma variável.
+----------------
+
+Para criarmos uma variável usamos o símbolo de igualdade ``=`` entre o nome do compartimento e o valor que queremos armazenar. Chamaremos essa operação de atribuição, na qual um valor é atribuido a uma variável. 
+
+Portanto em programação o símbolo de igualdade ``=`` é chamado de **operador de atribuição**.
+
+Por exemplo:
+.. code-block:: python
+   
+   idade = 33  
+   
+No código acima:
+* ``idade`` é o **nome da variável**
+* ``=`` é o **operador de atribuição**
+* ``33`` é o **valor armazenado na variável**
