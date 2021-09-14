@@ -101,6 +101,7 @@ Exemplo:
 
 .. code-block:: python
    
+   #Comparando o valor da variável idade com o valor 33
    idade == 33
    >>> True
    
