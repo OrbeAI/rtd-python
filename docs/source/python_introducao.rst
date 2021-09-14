@@ -110,7 +110,7 @@ Exemplo:
 Mas por enquanto não se preocupe com ele, falaremos sobre ele mais adiante.
 
 
-03.Comando print( ) com variáveis.
+03.Comando ``print( )`` com variáveis.
 ===================
 
 Para exemplificar o porque utilizar o comando ``print( )`` com variáveis pense no seguinte código:
