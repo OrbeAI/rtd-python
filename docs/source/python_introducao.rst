@@ -29,3 +29,31 @@ Isto é um comentário, ou seja, um pedaço do texto que deixamos dentro do cód
 .. code-block:: python
    
    #Isto é um comentário
+   
+   
+  02.Variáveis
+----------------
+
+**Variável é como se fosse uma gaveta na memória do computador.**
+
+Quando armazenamos camisetas, vamos na frente da gaveta e colocamos uma etiqueta com o nome do conteúdo armazenado (no caso “roupa”).
+
+Mas o conteúdo, ou seja, o valor armazenado pode variar, por isso o nome “variável”.
+
+Ex: tiramos as camisetas e colocamos calças.
+
+**Em programação uma variável armazena um valor**, que pode ser inúmeras coisas, desde texto, números, resultados de contas e etc.
+Uma variável é criada na primeira vez que um valor é armazenado nela.
+
+  02.a.Nomenclatura de variáveis.
+----------------
+
+| Nome da Variável | Válido | Comentários |
+|------------------|--------|-------------------------------------------------|
+| a3               |  SIM   | Python permite que uma variável contenha números|
+| idade            |  SIM   | Nome formado por letras                         |
+| idade90          |  SIM   | Nome formado por letras e números               |
+| salario_medio    |  SIM   | O símbolo _ é permitido                         |
+| salario medio    |  NÃO   | Nome de variáveis podem conter espaços          |
+| _b               |  SIM   | O símbolo _ é permitido em variáveis            |
+| 2a               |  NÃO   | Variáveis não podem começar com números         |
