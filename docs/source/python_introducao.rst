@@ -129,7 +129,7 @@ Para exemplificar o porque utilizar o comando ``print( )`` com variáveis pense 
    >>> 7 
 
 Você pode se perguntar:
-*Por que criar duas variáveis **a** e **b** para somar dois números?*
+*Por que criar duas variáveis "a" e "b" para somar dois números?*
 
 Poderíamos obter o resultado da mesma forma com o código: 
 
