@@ -11,6 +11,7 @@ Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
 .. code-block:: python
 
    print("Olá, mundo!")
+   
    >>> Olá, mundo!
 
    
@@ -103,6 +104,7 @@ Exemplo:
    
    #Comparando o valor da variável idade com o valor 33
    idade == 33
+   
    >>> True
    
 Mas por enquanto não se preocupe com ele, falaremos sobre ele mais adiante.
@@ -123,6 +125,7 @@ Para exemplificar o porque utilizar o comando ``print( )`` com variáveis pense 
    
    #Exibindo a soma da variável "a" com "b" usando o comando print( )
    print(a + b)
+   
    >>> 7 
 
 Você pode se perguntar:
@@ -133,9 +136,11 @@ Poderíamos obter o resultado da mesma forma com o código:
 .. code-block:: python
    
    print(4 + 3)
+   
    >>> 7 
    
    print(7)
+   
    >>>7
    
 Escolhemos usar variáveis para mostrar uma grande diferença entre resolver um problema no papel e no computador:
@@ -162,6 +167,7 @@ Portanto sempre escreva seus programas de forma a que seus códigos sejam limpos
    
    #Imprimindo o valor da soma do salario com o aumento.
    print(salario + (salario * aumento / 100))
+   
    >>> 1575
    
 No problema anterior, é possível alterar o valor das variáveis ``salário`` ou ``aumente`` sem que precise reescrever o programa inteiro, dessa forma pode-se utilizar o código para outro salário e outro aumento. 
