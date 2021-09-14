@@ -179,7 +179,7 @@ No problema anterior, é possível alterar o valor das variáveis ``salário`` o
 
 Agora que já entendemos porque utilizarmos o comando ``print( )`` com variáveis, veremos como.
 
-Para imprimirmos o valor de uma variável com o comando ``print( )``, basta adicionarmos a variável dentro dos parênteses do comando print( ).
+Para imprimirmos o valor de uma variável com o comando ``print( )``, basta adicionarmos a variável dentro dos parênteses do comando.
 
 Exemplo:
 
@@ -198,7 +198,7 @@ Exemplo:
 
 Em uma frase com mais de uma variável podemos utilizar o comando ``format``.
 
-O comando ``format( )`` formata um valor para o formato de texto e o insere dentro de um marcador de posição (placeholder).
+O comando ``format( )`` formata um valor para o formato de texto e o insere dentro de um marcador de posição *(placeholder)*.
 
 O marcador de posição é definido usando colchetes ``{ }``.
 
