@@ -147,11 +147,11 @@ Poderíamos obter o resultado da mesma forma com o código:
    
 Escolhemos usar variáveis para mostrar uma grande diferença entre resolver um problema no papel e no computador:
 
-- **Programar é descrever passos para a solução do problema**, portanto é aconselhável descrever os passos de forma que consiga alterá-los com facilidade e mais importante, que possa **entendê-los depois**.
+1. **Programar é descrever passos para a solução do problema**, portanto é aconselhável descrever os passos de forma que consiga alterá-los com facilidade e mais importante, que possa **entendê-los depois**.
 
-- Quando se escreve ``print(4 + 3)`` o problema foi a soma de 4 e 3, se precisar mudar alguma parte desse problema, irá precisar escrever outro programa. 
+2. Quando se escreve ``print(4 + 3)`` o problema foi a soma de 4 e 3, se precisar mudar alguma parte desse problema, irá precisar escrever outro programa. 
 
-- Quando se escreve ``print(7)`` não se descreve nenhum problema em si. 
+3. Quando se escreve ``print(7)`` não se descreve nenhum problema em si. 
 
 **A diferença está na clareza da representação do nosso problema**.
 
@@ -172,7 +172,7 @@ Portanto sempre escreva seus programas de forma a que seus códigos sejam limpos
    
    >>> 1575
    
-No problema anterior, é possível alterar o valor das variáveis ``salário`` ou ``aumente`` sem que precise reescrever o programa inteiro, dessa forma pode-se utilizar o código para outro salário e outro aumento. 
+No problema anterior, é possível alterar o valor das variáveis ``salário`` ou ``aumento`` sem que precise reescrever o programa inteiro, dessa forma pode-se utilizar o código para outro salário e outro aumento. 
 
 03.a.Como usar uma variável com o comando ``print()``.
 ----------------
