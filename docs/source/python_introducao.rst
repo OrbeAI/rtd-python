@@ -1,7 +1,7 @@
-#PYTHON: INTRODUÇÃO.
+PYTHON: INTRODUÇÃO.
 ********************
 
-#01.”Olá, mundo!”
+01.”Olá, mundo!”
 =================
 
 Talvez a primeira coisa que aprendemos a fazer quando começamos a estudar uma linguagem de programação é imprimir a frase “Hello, world!” (“Olá, mundo!”).
