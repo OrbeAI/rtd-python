@@ -177,7 +177,7 @@ No problema anterior, é possível alterar o valor das variáveis ``salário`` o
 03.a.Como usar uma variável com o comando ``print()``.
 ----------------
 
-Agora que já entendemos por que utilizarmos o comando ``print( )`` com variáveis, veremos como.
+Agora que já entendemos porque utilizarmos o comando ``print( )`` com variáveis, veremos como.
 
 Para imprimirmos o valor de uma variável com o comando ``print( )``, basta adicionarmos a variável dentro dos parênteses do comando print( ).
 
