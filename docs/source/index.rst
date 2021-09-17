@@ -22,6 +22,12 @@ Conteúdos
 --------
 
 .. toctree::
+   :caption: METODOLOGIA
+   :maxdepth: 1
+
+   metodologia
+
+.. toctree::
    :caption: PYTHON
    :maxdepth: 1
 
