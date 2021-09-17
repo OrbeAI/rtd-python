@@ -1,16 +1,14 @@
-ORBE.AI 
-********************
 
-
-ESCOLA INFINITA DE INTELIGÊNCIA ARTIFICIAL!
-===========================================
+.. figure::  logo_orbe_fundo.png
+   :align:   center
 
 ____________________________________________________________
 
 
+
+
 QUANDO VOCÊ ENTRA EM ÓRBITA COM A GENTE...
 ==========================================
-
 ..começa a experimentar uma jornada de **aprendizado contínuo baseada em projetos** partindo de um ponto inicial que requer zero programação, ou seja, sem nenhum conhecimento prévio! 
 
 Desenvolvemos a Orbe para todos. 
