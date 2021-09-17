@@ -1,6 +1,10 @@
-ORBE.AI - ESCOLA INFINITA DE INTELIGÊNCIA ARTIFICIAL! 
+ORBE.AI 
 ********************
+.. :align:   center
 
+ESCOLA INFINITA DE INTELIGÊNCIA ARTIFICIAL!
+===========================================
+.. :align:   center
 ____________________________________________________________
 
 
