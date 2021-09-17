@@ -1,6 +1,10 @@
 Bem vindo a Orbe.AI! 
 ********************
 
+.. figure::  docs/source/logo_orbe.png
+   :align:   center
+
+
 QUANDO VOCÊ ENTRA EM ÓRBITA COM A GENTE...
 ==========================================
 
