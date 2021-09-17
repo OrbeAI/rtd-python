@@ -1,8 +1,5 @@
-Bem vindo a Orbe.AI! 
+Orbe.AI - ESCOLA INFINITA DE INTELIGÊNCIA ARTIFICIAL! 
 ********************
-
-.. figure::  logo_orbe_fundo.png
-   :align:   center
 
 
 QUANDO VOCÊ ENTRA EM ÓRBITA COM A GENTE...
