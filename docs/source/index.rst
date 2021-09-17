@@ -1,19 +1,19 @@
-Welcome to Lumache's documentation!
-===================================
+Bem vindo a Orbe.AI! 
+********************
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+QUANDO VOCÊ ENTRA EM ÓRBITA COM A GENTE...
+==========================================
 
-Check out the :doc:`python_introducao` section for further information, including
-how to :ref:`installation` the project.
+..começa a experimentar uma jornada de **aprendizado contínuo baseada em projetos** partindo de um ponto inicial que requer zero programação, ou seja, sem nenhum conhecimento prévio! 
 
-.. note::
+Desenvolvemos a Orbe para todos. 
+**Nossa missão é despertar o potencial humano através da Inteligência Artificial** enquanto utilizamos como ferramentas a programação e a matemática. 
 
-   This project is under active development.
+Dessa forma fica muito mais leve, fácil e prático aprender. 
 
-Contents
+
+
+Conteúdos
 --------
 
 .. toctree::
