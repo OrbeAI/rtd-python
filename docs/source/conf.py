@@ -31,7 +31,7 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
-html_logo = 'docs/source/logo_orbe.png'
+html_logo = 'logo_orbe.png'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
