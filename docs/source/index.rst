@@ -1,5 +1,5 @@
-                                                                                 ORBE.AI 
-                                                                           ********************
+ORBE.AI 
+********************
 
 
 ESCOLA INFINITA DE INTELIGÊNCIA ARTIFICIAL!
