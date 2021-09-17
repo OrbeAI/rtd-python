@@ -1,7 +1,7 @@
 Bem vindo a Orbe.AI! 
 ********************
 
-.. figure::  docs/source/logo_orbe.png
+.. figure::  logo_orbe.png
    :align:   center
 
 
