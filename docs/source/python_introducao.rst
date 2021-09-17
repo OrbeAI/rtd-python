@@ -220,7 +220,7 @@ Exemplo:
    
    
 03.b.I.Diferentes formas de usar valores no marcador de posição.
-----------------
++++++++++++++++++++++
 
 Quando temos muitas variáveis, podemos usar **índices dentro dos marcadores de posição** para nos ajudar a organizar com o comando ``format( )``.
 
