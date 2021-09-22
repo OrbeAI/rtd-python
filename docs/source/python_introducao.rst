@@ -271,7 +271,7 @@ Quando temos muitas variáveis, podemos usar **índices dentro dos marcadores de
 Por exemplo:
 
 
- **03.b.I.Marcador de posição vazio**
+**03.b.I.Marcador de posição vazio**
 
 .. code-block:: python
    :linenos:
@@ -290,7 +290,7 @@ Por exemplo:
 ______________________________________________________________________________________________________
  
  
- **03.b.I.Marcador de posição com índices numéricos**
+**03.b.I.Marcador de posição com índices numéricos**
  
 .. code-block:: python
    :linenos:
