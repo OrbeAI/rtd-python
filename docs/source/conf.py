@@ -20,9 +20,7 @@ extensions = [
     'sphinx_copybutton',
 ]
 
-extensions = [
-    'sphinx_copybutton'
-]
+copybutton_only_copy_prompt_lines = False
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
