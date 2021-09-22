@@ -1,6 +1,7 @@
 sphinx
 ipython
 sphinx-book-theme
+pip install sphinx-copybutton
 
 # Install ourselves
 .
