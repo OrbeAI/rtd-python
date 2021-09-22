@@ -20,9 +20,6 @@ extensions = [
     'sphinx_copybutton',
 ]
 
-copybutton_only_copy_prompt_lines = False
-copybutton_prompt_text = r">>> |\.\.\. |\$ |In \[\d*\]: | {2,5}\.\.\.: | {5,8}: "
-copybutton_prompt_is_regexp = True
 copybutton_prompt_text = ">>> "
 
 intersphinx_mapping = {
