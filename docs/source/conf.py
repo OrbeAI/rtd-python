@@ -20,6 +20,12 @@ extensions = [
     'sphinx_copybutton',
 ]
 
+extensions = [
+    ...
+    'sphinx_copybutton'
+    ...
+]
+
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
