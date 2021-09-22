@@ -9,6 +9,7 @@ Talvez a primeira coisa que aprendemos a fazer quando começamos a estudar uma l
 Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
 
 .. code-block:: python
+   :linenos:
 
    print("Olá, mundo!")
    
