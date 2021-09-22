@@ -113,7 +113,7 @@ Exemplo:
    #Comparando o valor da variável idade com o valor 33
    idade == 33
    
-E o resultado será:
+**O resultado será:**
 
 .. code-block:: python
 
@@ -139,7 +139,7 @@ Para exemplificar o porque utilizar o comando ``print( )`` com variáveis pense 
    #Exibindo a soma da variável "a" com "b" usando o comando print( )
    print(a + b)
    
-E o resultado será: 
+**O resultado será:** 
 
 .. code-block:: python
 
@@ -156,7 +156,7 @@ Poderíamos obter o resultado da mesma forma com o código:
    #Imprimindo a soma dos valores 4 e 3
    print(4 + 3)
 
-E o resultado será: 
+**O resultado será:** 
 
 .. code-block:: python
 
@@ -168,7 +168,7 @@ E o resultado será:
    #Imprimindo o valor 7
    print(7)
    
-E o resultado será: 
+**O resultado será:** 
 
 .. code-block:: python
 
@@ -200,7 +200,7 @@ Portanto sempre escreva seus programas de forma a que seus códigos sejam limpos
    #Imprimindo o valor da soma do salario com o aumento.
    print(salario + (salario * aumento / 100))
    
-E o resultado será: 
+**O resultado será:** 
 
 .. code-block:: python   
  
@@ -226,7 +226,7 @@ Exemplo:
    #Usando o comando print( ) para imprimir o valor da variável "primeiro_nome"
    print(primeiro_nome)
  
-E o resultado será: 
+**O resultado será:** 
 
 .. code-block:: python 
 
@@ -255,7 +255,7 @@ Exemplo:
    #Usando o comando format( ) com o comando print( )
    print("Meu nome é {} e eu tenho {} anos".format(primeiro_nome, idade)) 
  
-E o resultado será: 
+**O resultado será:** 
 
 .. code-block:: python
 
@@ -276,11 +276,13 @@ Por exemplo:
    #01.Marcador de posição vazio
    print("Meu nome é {} e eu tenho {} anos".format(primeiro_nome, idade)) 
  
-E o resultado será: 
+**O resultado será:** 
 
 .. code-block:: python
 
    >>> Meu nome é Rafael e eu tenho 33 anos
+   
+______________________________________________________________________________________________________
  
 .. code-block:: python
    :linenos:
@@ -288,11 +290,13 @@ E o resultado será:
    #02.Marcador de posição com índices numéricos
    print("Meu nome é {0} e eu tenho {1} anos".format(primeiro_nome, idade)) 
 
-E o resultado será: 
+**O resultado será:** 
 
 .. code-block:: python
 
    >>> Meu nome é Rafael e eu tenho 33 anos
+
+________________________________________________________________________________________________________
    
 .. code-block:: python
    :linenos:
@@ -300,7 +304,7 @@ E o resultado será:
    #03.Marcador de posição com índices nomeados
    print("Meu nome é {nome_indice_01} e eu tenho {nome_indice_02} anos".format(nome_indice_01 = primeiro_nome, nome_indice_02 = idade)) 
 
-E o resultado será: 
+**O resultado será:** 
 
 .. code-block:: python
 
