@@ -13,6 +13,8 @@ Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
 
    print("Olá, mundo!")
    
+E o resultado será:
+   
 .. code-block:: python   
    
    >>> Olá, mundo!
@@ -29,6 +31,7 @@ Isto é um comentário, ou seja, um pedaço do texto que deixamos dentro do cód
 
 
 .. code-block:: python
+   :linenos:
    
    #Isto é um comentário
    
@@ -82,6 +85,7 @@ Portanto em programação o símbolo de igualdade ``=`` é chamado de **operador
 Por exemplo:
 
 .. code-block:: python
+   :linenos:
    
    #Criando uma variável chamada idade
    idade = 33  
@@ -104,10 +108,15 @@ O sinal de **igual da matemática é chamado de operador de comparação** é es
 Exemplo:
 
 .. code-block:: python
+   :linenos:
    
    #Comparando o valor da variável idade com o valor 33
    idade == 33
    
+E o resultado será:
+
+.. code-block:: python
+
    >>> True
    
 Mas por enquanto não se preocupe com ele, falaremos sobre ele mais adiante.
@@ -119,6 +128,7 @@ Mas por enquanto não se preocupe com ele, falaremos sobre ele mais adiante.
 Para exemplificar o porque utilizar o comando ``print( )`` com variáveis pense no seguinte código:
 
 .. code-block:: python
+   :linenos:
    
    #Criando uma variável "a" e atribuindo o valor de 4
    a = 4
@@ -129,6 +139,10 @@ Para exemplificar o porque utilizar o comando ``print( )`` com variáveis pense 
    #Exibindo a soma da variável "a" com "b" usando o comando print( )
    print(a + b)
    
+E o resultado será: 
+
+.. code-block:: python
+
    >>> 7 
 
 Você pode se perguntar:
@@ -137,15 +151,27 @@ Você pode se perguntar:
 Poderíamos obter o resultado da mesma forma com o código: 
 
 .. code-block:: python
+   :linenos:
    
    #Imprimindo a soma dos valores 4 e 3
    print(4 + 3)
-   
+
+E o resultado será: 
+
+.. code-block:: python
+
    >>> 7 
+   
+.. code-block:: python
+   :linenos:
    
    #Imprimindo o valor 7
    print(7)
    
+E o resultado será: 
+
+.. code-block:: python
+
    >>>7
    
 Escolhemos usar variáveis para mostrar uma grande diferença entre resolver um problema no papel e no computador:
@@ -161,7 +187,8 @@ Escolhemos usar variáveis para mostrar uma grande diferença entre resolver um 
 Portanto sempre escreva seus programas de forma a que seus códigos sejam limpos, organizados e minuciosos. Caso ainda não tenha ficado claro, pense no seguinte programa para calcular o aumento de salário:
 
 .. code-block:: python
-
+   :linenos:
+   
    #Programa para cálcular de aumento de salário
    
    #Criando a variável "salario"
@@ -173,6 +200,10 @@ Portanto sempre escreva seus programas de forma a que seus códigos sejam limpos
    #Imprimindo o valor da soma do salario com o aumento.
    print(salario + (salario * aumento / 100))
    
+E o resultado será: 
+
+.. code-block:: python   
+ 
    >>> 1575
    
 No problema anterior, é possível alterar o valor das variáveis ``salário`` ou ``aumento`` sem que precise reescrever o programa inteiro, dessa forma pode-se utilizar o código para outro salário e outro aumento. 
@@ -187,13 +218,18 @@ Para imprimirmos o valor de uma variável com o comando ``print( )``, basta adic
 Exemplo:
 
 .. code-block:: python
+   :linenos:
 
    #Criando uma variável chamada "primeiro_nome"
    primeiro_nome = "Rafael"
    
    #Usando o comando print( ) para imprimir o valor da variável "primeiro_nome"
    print(primeiro_nome)
-  
+ 
+E o resultado será: 
+
+.. code-block:: python 
+
    >>> Rafael
    
 03.b.Usando mais que uma variável com o comando ``print( )``.
@@ -208,6 +244,7 @@ O marcador de posição é definido usando colchetes ``{ }``.
 Exemplo:
 
 .. code-block:: python
+   :linenos:
 
    #Criando uma variável chamada "primeiro_nome"
    primeiro_nome = "Rafael"
@@ -217,7 +254,11 @@ Exemplo:
    
    #Usando o comando format( ) com o comando print( )
    print("Meu nome é {} e eu tenho {} anos".format(primeiro_nome, idade)) 
-   
+ 
+E o resultado será: 
+
+.. code-block:: python
+
    >>> Meu nome é Rafael e eu tenho 33 anos
    
    
@@ -230,18 +271,37 @@ Quando temos muitas variáveis, podemos usar **índices dentro dos marcadores de
 Por exemplo:
 
 .. code-block:: python
+   :linenos:
 
    #01.Marcador de posição vazio
    print("Meu nome é {} e eu tenho {} anos".format(primeiro_nome, idade)) 
-   
+ 
+E o resultado será: 
+
+.. code-block:: python
+
    >>> Meu nome é Rafael e eu tenho 33 anos
+ 
+.. code-block:: python
+   :linenos:
    
    #02.Marcador de posição com índices numéricos
    print("Meu nome é {0} e eu tenho {1} anos".format(primeiro_nome, idade)) 
-   
+
+E o resultado será: 
+
+.. code-block:: python
+
    >>> Meu nome é Rafael e eu tenho 33 anos
+   
+.. code-block:: python
+   :linenos:
    
    #03.Marcador de posição com índices nomeados
    print("Meu nome é {nome_indice_01} e eu tenho {nome_indice_02} anos".format(nome_indice_01 = primeiro_nome, nome_indice_02 = idade)) 
-   
+
+E o resultado será: 
+
+.. code-block:: python
+
    >>> Meu nome é Rafael e eu tenho 33 anos
