@@ -13,7 +13,7 @@ Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
 
    print("Olá, mundo!")
    
-**O resultado será:**
+**Este é o resultado:**
    
 .. code-block:: python   
    
@@ -113,7 +113,7 @@ Exemplo:
    #Comparando o valor da variável idade com o valor 33
    idade == 33
    
-**O resultado será:**
+**Este é o resultado:**
 
 .. code-block:: python
 
@@ -139,7 +139,7 @@ Para exemplificar o porque utilizar o comando ``print( )`` com variáveis pense 
    #Exibindo a soma da variável "a" com "b" usando o comando print( )
    print(a + b)
    
-**O resultado será:** 
+**Este é o resultado:**
 
 .. code-block:: python
 
@@ -156,7 +156,7 @@ Poderíamos obter o resultado da mesma forma com o código:
    #Imprimindo a soma dos valores 4 e 3
    print(4 + 3)
 
-**O resultado será:** 
+**Este é o resultado:** 
 
 .. code-block:: python
 
@@ -168,7 +168,7 @@ Poderíamos obter o resultado da mesma forma com o código:
    #Imprimindo o valor 7
    print(7)
    
-**O resultado será:** 
+**Este é o resultado:**
 
 .. code-block:: python
 
@@ -200,7 +200,7 @@ Portanto sempre escreva seus programas de forma a que seus códigos sejam limpos
    #Imprimindo o valor da soma do salario com o aumento.
    print(salario + (salario * aumento / 100))
    
-**O resultado será:** 
+**Este é o resultado:**
 
 .. code-block:: python   
  
@@ -226,7 +226,7 @@ Exemplo:
    #Usando o comando print( ) para imprimir o valor da variável "primeiro_nome"
    print(primeiro_nome)
  
-**O resultado será:** 
+**Este é o resultado:**
 
 .. code-block:: python 
 
@@ -255,7 +255,7 @@ Exemplo:
    #Usando o comando format( ) com o comando print( )
    print("Meu nome é {} e eu tenho {} anos".format(primeiro_nome, idade)) 
  
-**O resultado será:** 
+**Este é o resultado:** 
 
 .. code-block:: python
 
@@ -280,7 +280,7 @@ Por exemplo:
    print("Meu nome é {} e eu tenho {} anos".format(primeiro_nome, idade)) 
 
 
-**O resultado será:** 
+**Este é o resultado:** 
 
 .. code-block:: python
 
@@ -299,7 +299,7 @@ ________________________________________________________________________________
    print("Meu nome é {0} e eu tenho {1} anos".format(primeiro_nome, idade)) 
 
 
-**O resultado será:** 
+**Este é o resultado:** 
 
 .. code-block:: python
 
@@ -317,7 +317,7 @@ ________________________________________________________________________________
    print("Meu nome é {nome_indice_01} e eu tenho {nome_indice_02} anos".format(nome_indice_01 = primeiro_nome, nome_indice_02 = idade)) 
 
 
-**O resultado será:** 
+**Este é o resultado:**
 
 .. code-block:: python
 
