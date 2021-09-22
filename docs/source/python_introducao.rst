@@ -270,9 +270,10 @@ Quando temos muitas variáveis, podemos usar **índices dentro dos marcadores de
 
 Por exemplo:
 
+
 .. code-block:: python
    :linenos:
-
+   
    #01.Marcador de posição vazio
    print("Meu nome é {} e eu tenho {} anos".format(primeiro_nome, idade)) 
 
