@@ -22,6 +22,7 @@ extensions = [
 ]
 
 copybutton_prompt_text = r'>>> '
+copybutton_prompt_is_regexp = True
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
