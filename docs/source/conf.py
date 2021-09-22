@@ -21,9 +21,7 @@ extensions = [
 ]
 
 extensions = [
-    ...
     'sphinx_copybutton'
-    ...
 ]
 
 intersphinx_mapping = {
