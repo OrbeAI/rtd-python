@@ -13,7 +13,7 @@ Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
 
    print("Olá, mundo!")
    
-E o resultado será:
+**O resultado será:**
    
 .. code-block:: python   
    
