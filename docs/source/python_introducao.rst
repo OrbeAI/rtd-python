@@ -275,20 +275,24 @@ Por exemplo:
 
    #01.Marcador de posição vazio
    print("Meu nome é {} e eu tenho {} anos".format(primeiro_nome, idade)) 
- 
+
+
 **O resultado será:** 
 
 .. code-block:: python
 
    >>> Meu nome é Rafael e eu tenho 33 anos
-   
+ 
+ 
 ______________________________________________________________________________________________________
+ 
  
 .. code-block:: python
    :linenos:
    
    #02.Marcador de posição com índices numéricos
    print("Meu nome é {0} e eu tenho {1} anos".format(primeiro_nome, idade)) 
+
 
 **O resultado será:** 
 
@@ -297,12 +301,14 @@ ________________________________________________________________________________
    >>> Meu nome é Rafael e eu tenho 33 anos
 
 ________________________________________________________________________________________________________
-   
+  
+  
 .. code-block:: python
    :linenos:
    
    #03.Marcador de posição com índices nomeados
    print("Meu nome é {nome_indice_01} e eu tenho {nome_indice_02} anos".format(nome_indice_01 = primeiro_nome, nome_indice_02 = idade)) 
+
 
 **O resultado será:** 
 
