@@ -1,0 +1,4 @@
+sphinx
+ipython
+sphinx-book-theme
+sphinx-copybutton
