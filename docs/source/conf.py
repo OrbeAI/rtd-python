@@ -21,8 +21,9 @@ extensions = [
     'IPython.sphinxext.ipython_directive',
 ]
 
-copybutton_prompt_text = r'>>> '
-copybutton_prompt_is_regexp = True
+copybutton_prompt_text = "myinputprompt"
+copybutton_prompt_text = '>>> '
+
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
