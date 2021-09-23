@@ -22,6 +22,10 @@ extensions = [
     'sphinx_thebe',
 ]
 
+thebe_config = {
+   "selector": "div.highlight"
+}
+
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
