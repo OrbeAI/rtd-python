@@ -22,6 +22,11 @@ extensions = [
     'sphinx_thebe'
 ]
 
+thebe_config = {
+    "repository_url": "https://github.com/binder-examples/jupyter-stacks-datascience",
+    "path_to_docs": "docs"
+}
+
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
