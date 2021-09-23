@@ -24,7 +24,6 @@ Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
 .. thebe-button:: Click me!
    
    print("hi!")
-   
 
    
 01.a.Comentários no código.
