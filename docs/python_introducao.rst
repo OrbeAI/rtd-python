@@ -18,6 +18,15 @@ Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
 .. code-block:: python   
    
    >>> Olá, mundo!
+   
+
+.. thebe-button:: Clique aqui! 
+
+.. code-block:: python
+   :class: thebe
+
+   print("hi!")
+
       
 
    
