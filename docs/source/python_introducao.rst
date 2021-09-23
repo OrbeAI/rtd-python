@@ -21,7 +21,7 @@ Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
    
    
    
-   ``````{tabbed} reStructuredText
+``````{tabbed} reStructuredText
 ```{code-block} rst
 .. container:: thebe
    .. code-block:: r
