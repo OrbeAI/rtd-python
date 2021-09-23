@@ -21,9 +21,15 @@ Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
    
    
    
-.. thebe-button:: Click me!
-   
+.. code-block:: python
+   :class: thebe
+
    print("hi!")
+   
+And adding a button:
+
+.. thebe-button:: Click me!
+
 
    
 01.a.Comentários no código.
