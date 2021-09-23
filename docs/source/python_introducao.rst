@@ -18,6 +18,20 @@ Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
 .. code-block:: python   
    
    >>> Olá, mundo!
+   
+   
+   
+   ``````{tabbed} reStructuredText
+```{code-block} rst
+.. container:: thebe
+   .. code-block:: r
+      print("hi")
+
+   .. container:: output
+      "hi"
+```
+``````
+   
 
    
 01.a.Comentários no código.
