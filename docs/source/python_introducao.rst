@@ -31,6 +31,14 @@ And adding a button:
 .. thebe-button:: Click me!
 
 
+.. container:: thebe
+   .. code-block:: r
+      print("hi")
+
+   .. container:: output
+      "hi"
+
+
    
 01.a.Comentários no código.
 ----------------
