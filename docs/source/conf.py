@@ -19,6 +19,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx_copybutton',
     'IPython.sphinxext.ipython_directive',
+    'sphinx_thebe',
 ]
 
 
@@ -39,6 +40,9 @@ html_logo = 'logo_orbe.png'
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
+     'launch_buttons': {
+        'thebe': True,
+    },
 }
 
 # -- Options for EPUB output
