@@ -19,6 +19,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx_copybutton',
     'IPython.sphinxext.ipython_directive',
+    'sphinx_thebe'
 ]
 
 
