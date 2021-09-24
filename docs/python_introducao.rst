@@ -23,12 +23,9 @@ Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
 Tente você mesmo:
 ++++++++++++++
  
-
-.. note::
-
-   Só clicar no botão, aguardar aparecer ``ready`` e depois clicar em ``run``.
+Só clicar no botão, aguardar aparecer ``ready`` e depois clicar em ``run``.
    
-   Repare que é uma célula executável! Portanto você pode alterar texto e exutar da maneira como desejar.  
+Repare que é uma célula executável! Portanto **você pode alterar o código e exutar da maneira como desejar.**  
 
    
 .. thebe-button:: Clique aqui! 
@@ -41,7 +38,7 @@ Tente você mesmo:
 
 .. warning:: Atenção
  
-   Caso apareça a mensagem "failed" tente atualizar a página e clicar no botão novamente.  
+   Caso apareça a mensagem ``failed`` , ou por algum motivo não rode, tente atualizar a página e clicar no botão novamente.  
 
    
 01.a.Comentários no código.
