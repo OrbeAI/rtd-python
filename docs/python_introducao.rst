@@ -20,14 +20,28 @@ Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
    >>> Olá, mundo!
    
 
+Tente você mesmo:
+++++++++++++++
+ 
+
+.. note::
+
+   Só clicar no botão, aguardar aparecer ``ready`` e depois clicar em ``run``.
+   
+   Repare que é uma célula executável! Portanto você pode alterar texto e exutar da maneira como desejar.  
+
+   
+
 .. thebe-button:: Clique aqui! 
 
 .. code-block:: python
    :class: thebe
 
-   print("hi!")
+   print("Olá Mundo!")
 
-      
+.. warning:: Atenção
+ 
+   Caso apareça a mensagem "failed" tente atualizar a página e clicar no botão novamente.  
 
    
 01.a.Comentários no código.
