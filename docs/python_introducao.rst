@@ -21,7 +21,7 @@ Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
    
 
 Tente você mesmo:
-++++++++++++++
+-----------------
  
 Só clicar no botão, aguardar aparecer ``ready`` e depois clicar em ``run``.
    
@@ -42,7 +42,7 @@ Repare que é uma célula executável! Portanto **você pode alterar o código e
 
    
 01.a.Comentários no código.
-----------------
++++++++++++++++++++++++++
 
 Em Python alguns caracteres são especiais e tem uma funcionalidade específica. 
 
