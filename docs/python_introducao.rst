@@ -31,13 +31,13 @@ Tente você mesmo:
    Repare que é uma célula executável! Portanto você pode alterar texto e exutar da maneira como desejar.  
 
    
-
 .. thebe-button:: Clique aqui! 
 
 .. code-block:: python
    :class: thebe
 
    print("Olá Mundo!")
+
 
 .. warning:: Atenção
  
