@@ -20,8 +20,8 @@ Para isso usamos o comando ``print("Texto a ser impresso aqui")``.
    >>> Olá, mundo!
    
 
-Tente você mesmo:
------------------
+   Tente você mesmo:
+   -----------------
  
 Só clicar no botão, aguardar aparecer ``ready`` e depois clicar em ``run``.
    
