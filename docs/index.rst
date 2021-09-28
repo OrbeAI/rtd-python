@@ -35,6 +35,7 @@ Conteúdos
 
    python_introducao
    python_dados
+   python_estrutura_dados
    
 .. toctree::
    :caption: MACHINE LEARNING
