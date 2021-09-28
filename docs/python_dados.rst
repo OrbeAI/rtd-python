@@ -37,11 +37,12 @@ Veja o exemplo para criar uma variável que o valor armazenado é um dado tipo `
    estacao_do_ano = "Verão"
    
    
- .. code-block:: python
+.. code-block:: python
    :linenos:
    
    #Vendo o tipo de dado armazenado na variável chamada estacao_do_ano
    type(estacao_do_ano)
+   
    
 **Este é o resultado:**
    
@@ -66,7 +67,7 @@ Veja o exemplo para criar uma variável que o valor armazenado é um dado tipo `
    quantidade_de_pessoas = 12
    
    
- .. code-block:: python
+.. code-block:: python
    :linenos:
    
    #Vendo o tipo de dado armazenado na variável quantidade_de_pessoas
@@ -100,7 +101,7 @@ Veja o exemplo para criar uma variável que o valor armazenado é um dado tipo `
    temperatura_do_corpo = 37.5
    
    
- .. code-block:: python
+.. code-block:: python
    :linenos:
    
    #Vendo o tipo de dado armazenado na variável temperatura_do_corpo
