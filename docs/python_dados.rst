@@ -33,6 +33,7 @@ Veja o exemplo para criar uma variável que o valor armazenado é um dado tipo `
 .. code-block:: python
    :linenos:
 
+
    #Criando uma variável chamada estacao_do_ano e armazenando o valor verão
    estacao_do_ano = "Verão"
    
@@ -121,7 +122,9 @@ Veja o exemplo para criar uma variável que o valor armazenado é um dado tipo `
 
 Para isso usamos os seguintes comandos para cada tipo de dado:
 
+
 - Transformar os dados para ``string`` (texto):
+-------
 
 .. code-block:: python
    :linenos:
@@ -134,8 +137,10 @@ Para isso usamos os seguintes comandos para cada tipo de dado:
 .. code-block:: python   
    
    >>> '99'
-   
+
+
 - Transformar os dados para ``int`` (número inteiro):
+-----------
 
 .. code-block:: python
    :linenos:
@@ -151,6 +156,7 @@ Para isso usamos os seguintes comandos para cada tipo de dado:
  
  
 - Transformar os dados para ``float`` (número com casa decimal):
+----------
 
 .. code-block:: python
    :linenos:
