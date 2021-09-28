@@ -34,12 +34,6 @@ Conteúdos
    :maxdepth: 1
 
    python_introducao
-   
-
-.. toctree::
-   :caption: PYTHON
-   :maxdepth: 1
-
    python_dados
    
 .. toctree::
