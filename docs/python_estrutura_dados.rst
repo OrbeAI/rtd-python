@@ -533,7 +533,10 @@ Veja o exemplo de como remover um item em um dicionário:
    
    >>> novo_dic = {‘artista’: ‘Jorge Ben Jor’, ‘álbum’: ‘Samba Esquema Novo’}
    
+   
 04.e.Resumo de comandos para usar com dicionários
+-----------------
+
 
 +--------------------------------+--------------------------------------------------------------+
 |             COMANDO            |                           DESCRIÇÃO                          |
