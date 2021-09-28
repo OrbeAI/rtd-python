@@ -123,7 +123,7 @@ Veja o exemplo para criar uma variável que o valor armazenado é um dado tipo `
 Para isso usamos os seguintes comandos para cada tipo de dado:
 
 
-- Transformar os dados para ``string`` (texto):
+Transformar os dados para ``string`` (texto):
 -------
 
 .. code-block:: python
@@ -139,7 +139,7 @@ Para isso usamos os seguintes comandos para cada tipo de dado:
    >>> '99'
 
 
-- Transformar os dados para ``int`` (número inteiro):
+Transformar os dados para ``int`` (número inteiro):
 -----------
 
 .. code-block:: python
@@ -155,7 +155,7 @@ Para isso usamos os seguintes comandos para cada tipo de dado:
    >>> 99
  
  
-- Transformar os dados para ``float`` (número com casa decimal):
+Transformar os dados para ``float`` (número com casa decimal):
 ----------
 
 .. code-block:: python
