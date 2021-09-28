@@ -62,9 +62,11 @@ Pense na lista ``nome_da_lista = [“maçã”, 2,”verde”, 4.5]``
 
 Ela será ordenada da seguinte maneira:
 
++---------------+--------+---+---------+-----+
 |     índex     |    0   | 1 | 2       | 3   |
-|:-------------:|:------:|:-:|---------|-----|
++---------------+--------+---+---------+-----+
 | nome_da_lista | 'maçã' | 2 | 'verde' | 4.5 |
++---------------+--------+---+---------+-----+
 
 
 .. warning::
@@ -239,16 +241,25 @@ Para adicionar um item em um índex específico da lista usamos o comando ``inse
 02.e.Resumo de comandos para usar com listas
 -------------   
 
++---------------------------------------------+-------------------------------------------------------+
 |                   COMANDO                   |                       DESCRIÇÃO                       |
-|:-------------------------------------------:|:-----------------------------------------------------:|
-| nome_lista = [valor_01, valor_02, valor_03] | criando uma lista com colchetes [ ]                   |
-| len(nome_lista)                             | descobrindo quantos itens há na lista.                |
-| nome_lista[2]                               | acessando um item específico da lista pelo seu índex. |
-| nome_lista[1:3]                             | acessando um intervalo de itens na lista.             |
-| nome_lista[1] = "novo valor"                | alterando um item específico da lista pelo seu índex. |
-| remove(valor)                               | remove um item com valor específico.                  |
-| append(valor)                               | adiciona um item ao final da lista.                   |
-| insert(index,valor)                         | adiciona um item em um índex específico.              |
++---------------------------------------------+-------------------------------------------------------+
+| nome_lista = [valor_01, valor_02, valor_03] |          criando uma lista com colchetes [ ]          |
++---------------------------------------------+-------------------------------------------------------+
+|               len(nome_lista)               |         descobrindo quantos itens há na lista.        |
++---------------------------------------------+-------------------------------------------------------+
+|                nome_lista[2]                | acessando um item específico da lista pelo seu índex. |
++---------------------------------------------+-------------------------------------------------------+
+|               nome_lista[1:3]               |       acessando um intervalo de itens na lista.       |
++---------------------------------------------+-------------------------------------------------------+
+|         nome_lista[1] = "novo valor"        | alterando um item específico da lista pelo seu índex. |
++---------------------------------------------+-------------------------------------------------------+
+|                remove(valor)                |          remove um item com valor específico.         |
++---------------------------------------------+-------------------------------------------------------+
+|                append(valor)                |          adiciona um item ao final da lista.          |
++---------------------------------------------+-------------------------------------------------------+
+|             insert(index,valor)             |        adiciona um item em um índex específico.       |
++---------------------------------------------+-------------------------------------------------------+
 
 
 
@@ -304,9 +315,11 @@ Pense na tupla ``nome_da_tupla = (“maçã”, 2,”verde”, 4.5)``
 
 Ela será ordenada da seguinte maneira:
 
++---------------+--------+---+---------+-----+
 |     índex     |    0   | 1 | 2       | 3   |
-|:-------------:|:------:|:-:|---------|-----|
++---------------+--------+---+---------+-----+
 | nome_da_tupla | 'maçã' | 2 | 'verde' | 4.5 |
++---------------+--------+---+---------+-----+
 
 
 .. warning::
@@ -522,13 +535,22 @@ Veja o exemplo de como remover um item em um dicionário:
    
 04.e.Resumo de comandos para usar com dicionários
 
++--------------------------------+--------------------------------------------------------------+
 |             COMANDO            |                           DESCRIÇÃO                          |
-|:------------------------------:|:------------------------------------------------------------:|
++--------------------------------+--------------------------------------------------------------+
 | novo_dic = {'chave': valor}    | criando um dicionário com chaves { }                         |
++--------------------------------+--------------------------------------------------------------+
 | len(novo_dic)                  | descobrindo quantos itens há no dicionário.                  |
++--------------------------------+--------------------------------------------------------------+
 | nov_dic['chave']               | acessando um item específico do dicionário por sua chave.    |
++--------------------------------+--------------------------------------------------------------+
 | novo_dic['chave'] = novo valor | alterando um item específico do dicionário por sua chave.    |
++--------------------------------+--------------------------------------------------------------+
 | novo_dic.pop('chave')          | remove um item informando a sua chave.                       |
++--------------------------------+--------------------------------------------------------------+
 | novo_dic['chave'] = 'valor'    | adiciona um item ao dicionário informando sua chave e valor. |
++--------------------------------+--------------------------------------------------------------+
 | append(valor)                  | adiciona um item ao final da lista.                          |
++--------------------------------+--------------------------------------------------------------+
 | insert(index,valor)            | adiciona um item em um índex específico.                     |
++--------------------------------+--------------------------------------------------------------+
