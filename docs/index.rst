@@ -35,6 +35,13 @@ Conteúdos
 
    python_introducao
    
+
+.. toctree::
+   :caption: PYTHON
+   :maxdepth: 1
+
+   python_dados
+   
 .. toctree::
    :caption: MACHINE LEARNING
    :maxdepth: 1 
