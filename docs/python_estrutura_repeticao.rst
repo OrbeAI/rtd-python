@@ -51,7 +51,7 @@ Na maioria das vezes usamos um incremento da variável dentro da estrutura de re
 
 Para incrementarmos o valor de uma variável numérica em uma unidade, podemos fazer de duas formas:
 
-02.a.Adicionando uma unidade
+01.a.i.Adicionando uma unidade
 ++++++
 
 .. code-block:: python
@@ -61,7 +61,7 @@ Para incrementarmos o valor de uma variável numérica em uma unidade, podemos f
 
 ______________________________________________________________________________________________________________________________________________
 
-01.a.i.Usando um operador de atribuição especial
+01.a.io.Usando um operador de atribuição especial
 ++++++
 
 .. code-block:: python
@@ -70,7 +70,7 @@ ________________________________________________________________________________
    variavel += 1
    
  
-01.a.ii.Looping infinito
+01.a.iii.Looping infinito
 +++++
 
 .. warning::
