@@ -1,4 +1,4 @@
-PYTHON: ESTRUTURA DE CONDIÇÃO - IF.
+PYTHON: ESTRUTURA DE CONDIÇÃO.
 ********************
 
 01.Operadores de comparação
