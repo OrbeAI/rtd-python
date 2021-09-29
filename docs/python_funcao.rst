@@ -1,4 +1,4 @@
-PYTHON: FUNÇÃO.
+FUNÇÃO.
 ********************
 
 **Função é um bloco de código que só é executado quando é chamado.**
