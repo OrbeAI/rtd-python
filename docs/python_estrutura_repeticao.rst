@@ -17,7 +17,7 @@ Podemos entender a estrutura de condição ``while`` como:
 
 - ``while`` é o “enquanto” em português. Portanto “enquanto a condição for verdadeira, execute esse bloco de código.”
 
-Veja o exemplo de uma estrutura de condição ``while``:
+Veja o exemplo de uma estrutura de repetição ``while``:
 
 .. code-block:: python
    :linenos:
@@ -180,3 +180,214 @@ Veja o exemplo do comando ``continue``:
    >>> 4
    >>> 5
    >>> 6
+
+
+02.Estrutura de repetição ``for``
+============
+
+Com a estrutura de repetição ``for`` executamos um bloco de código uma vez **para cada item** de uma estrutura de dados (Ex: listas, tuplas, dicionários).
+
+A estrutura de repetição ``for`` é composta basicamente por duas partes:
+
+.. code-block:: python
+   :linenos:
+   
+   for variável in estrutura de dados:
+   
+    execute esse bloco de código.
+
+Podemos entender a estrutura de condição ``for`` como:
+
+- ``for`` é o “para” em português. Portanto “para esta variável nesta estrutura de dados, execute esse bloco de código.”
+
+Veja o exemplo de uma estrutura de repetição ``for``:
+
+.. code-block:: python
+   :linenos:
+  
+   #Criando uma estrutura de dados 
+   lista_compra = ['laranja', 'limão', 'maracujá', 'goiaba']
+   
+   #Establecendo para o for atribuir a variável "fruta" cada item da estrutura lista_compra
+   for fruta in lista_compra:
+      
+      #imprimir o valor atribuído a variável fruta
+      print(fruta)
+
+**Este é o resultado:**
+
+.. code-block:: python
+
+   >>> laranja
+   >>> limão
+   >>> maracujá
+   >>> goiaba
+  
+  
+.. warning::
+
+   Para cada item da lista o ``for`` atribui este item à uma variável (que funciona somente dentro do for e em seguida executa um bloco de código.
+   
+   
+02.a.Comando ``break``
+------
+
+Com o comando ``break`` podemos parar a repetição antes de percorrer todos os itens da lista.
+
+Veja o exemplo de como usar o comando ``break`` em uma estrutura de repetição ``for``:
+
+.. code-block:: python
+   :linenos:
+  
+   #Criando uma estrutura de dados 
+   lista_compra = ['laranja', 'limão', 'maracujá', 'goiaba']
+   
+   #Establecendo para o for atribuir a variável "fruta" cada item da estrutura lista_compra
+   for fruta in lista_compra:
+      
+      #imprimir o valor atribuído a variável fruta
+      print(fruta)
+      
+      #estabelecendo a condição de que se o valor atribuído a variável fruta for igual limão
+      if fruta == 'limão':
+    
+         #encerre essa repetição    
+         break
+
+**Este é o resultado:**
+
+.. code-block:: python
+
+   >>> laranja
+   >>> limão
+   
+
+02.b.Comando ``continue``
+------
+
+Com o comando ``continue`` podemos parar a repetição atual e continuar com a próxima repetição.
+
+Veja o exemplo de como usar o comando ``continue`` em uma estrutura de repetição ``for``:
+
+.. code-block:: python
+   :linenos:
+  
+   #Criando uma estrutura de dados 
+   lista_compra = ['laranja', 'limão', 'maracujá', 'goiaba']
+   
+   #Establecendo para o for atribuir a variável "fruta" cada item da estrutura lista_compra
+   for fruta in lista_compra:
+      
+      #imprimir o valor atribuído a variável fruta
+      print(fruta)
+      
+      #estabelecendo a condição de que se o valor atribuído a variável fruta for igual limão
+      if fruta == 'limão':
+    
+         #encerre essa repetição e continue na para a próxima  
+         continue
+
+**Este é o resultado:**
+
+.. code-block:: python
+
+   >>> laranja
+   >>> maracujá
+   >>> goiaba
+   
+02.b.Comando ``range()``
+------
+
+Para repetir um bloco de código uma quantidade específica de vezes usamos o comando ``range()``, que nos retorna uma sequência de números.
+
+Veja o exemplo de como usar o comando ``range`` em uma estrutura de repetição ``for``:
+
+.. code-block:: python
+   :linenos:
+   
+   #Establecendo para o for atribuir a variável "i" os valores 0 à 5
+   for i in range(5):
+      
+      #imprimir o valor atribuído a variável "i"
+      print(i)
+
+**Este é o resultado:**
+
+.. code-block:: python
+
+   >>> 0
+   >>> 1
+   >>> 2
+   >>> 3
+   >>> 4
+   
+   
+ Podemos entender o comando ``range()`` como:
+
+- ``range()`` significa “faixa” em português. Portanto “para esta variável nesta faixa, execute esse bloco de código.”
+
+02.b.i.Padrões do comando ``range()``
+++++++++
+
+Por padrão o comando ``range()```sempre começa por 0 (zero), mas podemos alterar desta forma:
+
+.. code-block:: python
+   :linenos:
+   
+   for i in range(inicio, fim)
+   
+.. warning::
+
+   No comando ``range()`` o **início é incluso** e o **fim não é incluso**
+   
+Veja o exemplo de como alterar o comando ``range`` em uma estrutura de repetição ``for``:
+
+.. code-block:: python
+   :linenos:
+   
+   #Establecendo para o for atribuir a variável "i" os valores 3 à 7
+   for i in range(3, 7):
+      
+      #imprimir o valor atribuído a variável "i"
+      print(i)
+
+**Este é o resultado:**
+
+.. code-block:: python
+
+   >>> 3
+   >>> 4
+   >>> 5
+   >>> 6
+   
+
+02.b.ii.Incremento com o comando ``range()``
+++++++++
+
+Por padrão o comando ``range()```sempre incrementa um valor unitário (1), mas podemos alterar desta forma:
+
+.. code-block:: python
+   :linenos:
+   
+   for i in range(inicio, fim, incremento)
+   
+Veja o exemplo de como usar o incremento com o comando ``range`` em uma estrutura de repetição ``for``:
+
+.. code-block:: python
+   :linenos:
+   
+   #Establecendo para o for atribuir a variável "i" os valores 2 à 10, sempre pulando de 2 em 2
+   for i in range(2, 10, 2):
+      
+      #imprimir o valor atribuído a variável "i"
+      print(i)
+
+**Este é o resultado:**
+
+.. code-block:: python
+
+   >>> 2
+   >>> 4
+   >>> 6
+   >>> 8
+ 
