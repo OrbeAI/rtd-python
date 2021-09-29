@@ -38,6 +38,7 @@ Conteúdos
    python_estrutura_dados
    python_estrutura_condicao
    python_estrutura_repeticao
+   python_funcao
    
 .. toctree::
    :caption: MACHINE LEARNING
