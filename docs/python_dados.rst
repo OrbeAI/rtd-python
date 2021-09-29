@@ -2,7 +2,7 @@
 DADOS
 *************
 
-01. Tipos de Dados
+01. Tipos de dados
 ==================
 
 Existem alguns tipos de dados na linguagem de programação, por enquanto vamos utilizar três tipos de dados mais comuns:
@@ -16,7 +16,7 @@ Existem alguns tipos de dados na linguagem de programação, por enquanto vamos 
 Para identificarmos o tipo de dado de um valor usamos o comando ``type()``
 
 
-02. Texto ``string`` 
+02. Texto (``string``) 
 =====================
 
 Texto em programação é um tipo de dado chamado de ``string``. 
@@ -52,7 +52,7 @@ Veja o exemplo para criar uma variável que o valor armazenado é um dado tipo `
    >>> str
    
  
-03. Número inteiro ``int``
+03. Número inteiro (``int``)
 =====================
 
 
@@ -82,7 +82,7 @@ Veja o exemplo para criar uma variável que o valor armazenado é um dado tipo `
    
  
  
-04. Número com casa decimal ``float``
+04. Número com casa decimal (``float``)
 =====================
 
 Números com casa decimal em programação é um tipo de dado chamado ``float``.
