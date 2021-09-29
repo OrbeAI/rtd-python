@@ -61,7 +61,7 @@ Para incrementarmos o valor de uma variável numérica em uma unidade, podemos f
 
 ______________________________________________________________________________________________________________________________________________
 
-01.a.io.Usando um operador de atribuição especial
+01.a.ii.Usando um operador de atribuição especial
 ++++++
 
 .. code-block:: python
