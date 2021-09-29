@@ -45,14 +45,14 @@ Veja o exemplo de uma estrutura de condição ``while``:
    >>> 5
 
 02.Incremento de variável
-============
+------
 
 Na maioria das vezes usamos um incremento da variável dentro da estrutura de repetição ``while`` para que ela altere de valor e assim altere o estado da condição (verdadeiro ou falso).
 
 Para incrementarmos o valor de uma variável numérica em uma unidade, podemos fazer de duas formas:
 
 02.a.Adicionando uma unidade
-------
+++++++
 
 .. code-block:: python
    :linenos:
@@ -62,7 +62,7 @@ Para incrementarmos o valor de uma variável numérica em uma unidade, podemos f
 ______________________________________________________________________________________________________________________________________________
 
 02.b.Usando um operador de atribuição especial
-------
+++++++
 
 .. code-block:: python
    :linenos:
@@ -71,7 +71,7 @@ ________________________________________________________________________________
    
  
 02.c.Looping infinito
--------
++++++
 
 .. warning::
 
@@ -107,6 +107,7 @@ Veja o exemplo de um looping infinito:
    >>> ...
    
 03.Comando ``break``
+------
 
 Com o comando ``break`` (pausa) podemos pausar a repetição mesmo se a condição ainda for verdadeira.
 
@@ -143,6 +144,7 @@ Veja o exemplo do comando ``break``:
    
 
 04.Comando ``continue``
+------
 
 Com o comando continue podemos parar a repetição e continuar com o próximo bloco de código.
 
