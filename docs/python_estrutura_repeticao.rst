@@ -22,17 +22,17 @@ Veja o exemplo de uma estrutura de condição ``while``:
 .. code-block:: python
    :linenos:
   
-  #Criando uma variável chamada número e atribuíndo o valor de um
-  numero = 1
-  
-  #Estabelecendo que enquanto número for menor que 6
-  while numero < 6:
-  
-    #imprima o valor do número
-    print(numero)
-    
-    #salve o valor atual da variável numero + 1 dentro da variável numero
-    numero = numero + 1
+     #Criando uma variável chamada número e atribuíndo o valor de um
+     numero = 1
+
+     #Estabelecendo que enquanto número for menor que 6
+     while numero < 6:
+
+       #imprima o valor do número
+       print(numero)
+
+       #salve o valor atual da variável numero + 1 dentro da variável numero
+       numero = numero + 1
 
 **Este é o resultado:**
 
@@ -82,17 +82,17 @@ Veja o exemplo de um looping infinito:
 .. code-block:: python
    :linenos:
   
-  #Criando uma variável chamada número e atribuíndo o valor de um
-  numero = 1
+   #Criando uma variável chamada número e atribuíndo o valor de um
+   numero = 1
   
-  #Criando um looping infinito
-  while numero:
+   #Criando um looping infinito
+   while numero:
   
-    #imprima o valor do número
-    print(numero)
+      #imprima o valor do número
+      print(numero)
     
-    #salve o valor atual da variável numero + 1 dentro da variável numero
-    numero = numero + 1
+      #salve o valor atual da variável numero + 1 dentro da variável numero
+      numero = numero + 1
   
   
 **Este é o resultado:**
@@ -116,23 +116,23 @@ Veja o exemplo do comando ``break``:
 .. code-block:: python
    :linenos:
   
-  #Criando uma variável chamada número e atribuíndo o valor de um
-  numero = 1
+   #Criando uma variável chamada número e atribuíndo o valor de um
+   numero = 1
   
-  #Estabelecendo que enquanto número for menor que 6
-  while numero < 6:
+   #Estabelecendo que enquanto número for menor que 6
+   while numero < 6:
   
-    #imprima o valor do número
-    print(numero)
+      #imprima o valor do número
+      print(numero)
     
-    #criando uma condição
-    if numero == 3:
+      #criando uma condição
+      if numero == 3:
     
-      #utilizando o comando break para encerrar a repetição
-      break
+         #utilizando o comando break para encerrar a repetição
+         break
     
-    #salve o valor atual da variável numero + 1 dentro da variável numero
-    numero = numero + 1
+      #salve o valor atual da variável numero + 1 dentro da variável numero
+      numero = numero + 1
 
 **Este é o resultado:**
 
@@ -151,7 +151,7 @@ Com o comando continue podemos parar a repetição e continuar com o próximo bl
 Veja o exemplo do comando ``continue``:
 
 .. code-block:: python
-   :linenos:
+  :linenos:
   
   #Criando uma variável chamada número e atribuíndo o valor de um
   numero = 0
