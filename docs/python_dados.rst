@@ -1,5 +1,5 @@
 
-PYTHON: DADOS
+DADOS
 *************
 
 01. Tipos de Dados
