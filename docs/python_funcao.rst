@@ -27,11 +27,11 @@ Veja o exemplo de como criar e chamar uma função:
 .. code-block:: python
    :linenos:
   
-     #Criando uma função chamada parabens
-     def parabens( ):
+    #Criando uma função chamada parabens
+    def parabens( ):
      
-       #Estabelecendo o bloco de código que a função parabens irá executar
-       print('Parabéns, você criou uma função.')
+      #Estabelecendo o bloco de código que a função parabens irá executar
+      print('Parabéns, você criou uma função.')
        
 
 .. code-block:: python
