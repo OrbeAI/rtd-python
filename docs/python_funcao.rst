@@ -98,6 +98,8 @@ Veja o exemplo de como criar uma função com parâmetros e argumentos:
    Repare que como não passamos nenhum parâmetro para a função, ela nos devolve os parâmetros padrões ``(default)``, que neste caso é 40 vezes o símbolo '@'.
    
 02.a.Alterando os argumentos de uma função
+----------------
+
 
 Pense na função ``barra_01``:
 
@@ -127,3 +129,82 @@ Veja o exemplo de como alterar os argumentos de uma função na hora de chamá-l
 
    >>> !!!!!!!!!!
    
+
+
+04. Variáveis globais e variáveis locais
+============
+
+É importante saber que existem dois tipos de variáveis:
+
+
+04.a.Variáveis globais
+--------
+
+É criada **fora** de uma função, estrutura de repetição ou condição. 
+Ou seja, podemos acessar o seu valor em **qualquer parte do código**.
+
+
+04.b.Variáveis locais
+-------
+
+É criada **dentro** de uma função, estrutura de repetição ou condição. 
+Sendo inicializada (criada) a cada vez que chamamos a função ou seja **não podemos acessar o valor fora** da função, estrutura de repetição ou condição .
+
+
+04.c.Veja o exemplo de uma variável global e variável local:
+-----------
+
+- Pense no seguinte código:
+
+.. code-block:: python
+   :linenos:
+   
+   #Criando uma variável global chamada "ano_nascimento"
+   ano_nascimento = 1987
+   
+   #Criando uma função chamada descobrir_idade
+   def descobrir_idade():
+      
+      #Criando uma variável local chamada "idade"
+      idade = 2021 - ano_nascimento
+      
+      #Pedindo para estabelecer o valor 
+      print('Minha idade é: ', idade)
+      
+.. note:: 
+
+   - ``ano_nascimento`` é uma variável global.
+  
+   - ``idade`` é uma variável local.
+   
+04.c.i.Exemplo variável global
+
+Repare que podemos usar a variável global ``ano_nascimento`` fora da função:
+
+.. code-block:: python
+   :linenos:
+   
+   #Imprimindo a variável global chamada "ano_nascimento"
+   print(ano_nascimento)
+   
+**Este é o resultado:**
+
+.. code-block:: python
+
+   >>> 1987
+   
+04.c.ii.Exemplo variável local 
+
+Repare que não podemos usar a variável local ``idade`` fora da função:
+
+.. code-block:: python
+   :linenos:
+   
+   #Imprimindo a variável local chamada "idade"
+   print(idade)
+   
+**Este é o resultado:**
+
+.. code-block:: python
+
+   >>> NameError: name 'idade' is not defined
