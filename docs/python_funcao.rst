@@ -45,5 +45,7 @@ Veja o exemplo de como criar e chamar uma função:
 
 .. code-block:: python
 
->>> Parabéns, você criou uma função.
+   >>> Parabéns, você criou uma função.
+
+
 
