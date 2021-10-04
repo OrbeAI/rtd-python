@@ -1,15 +1,7 @@
-FUNÇÃO.
+FUNÇÕES.
 ********************
 
-**Função é um bloco de código que só é executado quando é chamado.**
-
- - Funções nos ajudam a diminuir repetições tornando o código mais organizado.
-
-
-01.Criando uma função
-============
-
-Para criar uma função usamos o comando ``def``, uma função é é composta basicamente por duas partes:
+Uma função é composta basicamente por duas partes:
 
 .. code-block:: python
    :linenos:
@@ -18,7 +10,19 @@ Para criar uma função usamos o comando ``def``, uma função é é composta ba
     
     bloco de código da função
     
-Veja o exemplo de uma função:
+Podemos entender uma função como: 
+
+- Função é um bloco de código que só é executado quando é chamado.
+
+- Funções nos ajudam a diminuir repetições tornando o código mais organizado.
+
+
+01.Criando uma função
+============
+
+Para criar uma função usamos o comando ``def``.
+    
+Veja o exemplo de como criar e chamar uma função:
 
 .. code-block:: python
    :linenos:
@@ -32,11 +36,12 @@ Veja o exemplo de uma função:
 
 .. code-block:: python
    :linenos:
-  
-     #Chamando a função parabéns
-     parabens()
+   
+   #Chamando a função parabéns
+   parabens()
  
- **Este é o resultado:**
+
+**Este é o resultado:**
 
 .. code-block:: python
 
