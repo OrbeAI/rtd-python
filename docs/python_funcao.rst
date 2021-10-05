@@ -95,7 +95,7 @@ Veja o exemplo de como criar uma função com parâmetros e argumentos:
    
 .. warning::
 
-   Repare que como não passamos nenhum parâmetro para a função, ela nos devolve os parâmetros padrões ``(default)``, que neste caso é 40 vezes o símbolo '@'.
+   Repare que como não passamos nenhum argumento para a função, ela nos devolve os argumentos padrões ``(default)``, que neste caso é 40 vezes o símbolo '@'.
    
 02.a.Alterando os argumentos de uma função
 ----------------
