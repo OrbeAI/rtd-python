@@ -178,6 +178,7 @@ Sendo inicializada (criada) a cada vez que chamamos a função ou seja **não po
    - ``idade`` é uma variável local.
    
 04.c.i.Exemplo variável global
+++++++++
 
 Repare que podemos usar a variável global ``ano_nascimento`` fora da função:
 
@@ -194,6 +195,7 @@ Repare que podemos usar a variável global ``ano_nascimento`` fora da função:
    >>> 1987
    
 04.c.ii.Exemplo variável local 
+++++++++
 
 Repare que não podemos usar a variável local ``idade`` fora da função:
 
