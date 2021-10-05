@@ -44,7 +44,8 @@ html_logo = 'logo_orbe.png'
 
 html_theme_options = {
     'logo_only': True,
-    'display_version': False
+    'display_version': False,
+    'use_download_button': True
 }
 
 # -- Options for EPUB output
