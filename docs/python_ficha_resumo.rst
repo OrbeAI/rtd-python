@@ -8,7 +8,7 @@ Nós da Orbe.AI criamos uma ficha resumo com todos os comandos mostrados para fa
 
 .. only :: builder_html or readthedocs
 
-   :download:`Clique aqui para baixar sua ficha resumo <_downloads/python_ficha_resumo.tar.gz>`.
+   :download:`Clique aqui para baixar a ficha resumo <_downloads/python_ficha_resumo.tar.gz>`.
 
 
 .. note:: 
