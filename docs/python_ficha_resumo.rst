@@ -1,7 +1,7 @@
 FICHA RESUMO
 ********
 
-Baixando sua ficha resumo de Python
+01.Baixando sua ficha resumo de Python
 ============
 
 Nós da Orbe.AI criamos uma ficha resumo com todos os comandos mostrados para facilitar seus estudos.  
