@@ -14,4 +14,4 @@ Nós da Orbe.AI criamos uma ficha resumo com todos os comandos mostrados para fa
 .. warning:: 
 
    O arquivo será baixado em formato WinRar, caso não saiba como instalar clique no link abaixo que será rediciorecionado para um tutorial:
-   >>> https://www.youtube.com/watch?v=ioFZZ5xCSqw&ab_channel=TiraTeimaTutoriais
+    https://www.youtube.com/watch?v=ioFZZ5xCSqw&ab_channel=TiraTeimaTutoriais
