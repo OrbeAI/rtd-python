@@ -131,27 +131,27 @@ Veja o exemplo de como alterar os argumentos de uma função na hora de chamá-l
    
 
 
-04. Variáveis globais e variáveis locais
+03. Variáveis globais e variáveis locais
 ============
 
 É importante saber que existem dois tipos de variáveis:
 
 
-04.a.Variáveis globais
+03.a.Variáveis globais
 --------
 
 É criada **fora** de uma função, estrutura de repetição ou condição. 
 Ou seja, podemos acessar o seu valor em **qualquer parte do código**.
 
 
-04.b.Variáveis locais
+03.b.Variáveis locais
 -------
 
 É criada **dentro** de uma função, estrutura de repetição ou condição. 
 Sendo inicializada (criada) a cada vez que chamamos a função ou seja **não podemos acessar o valor fora** da função, estrutura de repetição ou condição .
 
 
-04.c.Veja o exemplo de uma variável global e variável local:
+03.c.Veja o exemplo de uma variável global e variável local:
 -----------
 
 - Pense no seguinte código:
@@ -177,7 +177,7 @@ Sendo inicializada (criada) a cada vez que chamamos a função ou seja **não po
   
    - ``idade`` é uma variável local.
    
-04.c.i.Exemplo variável global
+03.c.i.Exemplo variável global
 ++++++++
 
 Repare que podemos usar a variável global ``ano_nascimento`` fora da função:
@@ -194,7 +194,7 @@ Repare que podemos usar a variável global ``ano_nascimento`` fora da função:
 
    >>> 1987
    
-04.c.ii.Exemplo variável local 
+03.c.ii.Exemplo variável local 
 ++++++++
 
 Repare que não podemos usar a variável local ``idade`` fora da função:
@@ -210,3 +210,82 @@ Repare que não podemos usar a variável local ``idade`` fora da função:
 .. code-block:: python
 
    >>> NameError: name 'idade' is not defined
+
+
+04.Comando ``return``
+=======
+
+Em muitos casos, usamos uma função para executar **um bloco de código que nos retorne algo**, por exemplo o resultado de uma conta.
+Quando queremos realizar isso, utilizamos o comando ``return``
+
+O comando return é composta basicamente da seguinte maneira:
+
+.. code-block:: python
+   :linenos:
+   
+   def nome_da_função( ):
+    
+    bloco de código da função
+    
+    return conteúdo desejado
+    
+Podemos entender o comando ``return`` como: 
+
+- O comando return dentro de uma função, nos retorna algum conteúdo.
+
+Veja o exemplo de como usar o comando ``return`` dentro de uma função:
+
+.. code-block:: python
+   :linenos:
+  
+    #Criando uma função chamada "area_triangulo" com os parâmetros base e altura
+    def area_triangulo(base, altura):
+      
+      #Estabelecendo para a função calcular a área do triangulo
+      area = base*altura/2
+      
+      #Utilizando o comando return para nos devolver o valor da área
+      return area
+      
+ 
+.. code-block:: python
+   :linenos:
+   
+   #Chamando a função area_triangulo com os argumentos desejados
+   area_triangulo(8, 10)
+ 
+
+**Este é o resultado:**
+
+.. code-block:: python
+
+   >>> 40
+   
+04.a.Trabalhando com o valor do comando ``return``
+-----------
+
+Caso você deseje trabalhar com o valor que o comando ``return`` devolveu, basta atribuí-lo a uma variável
+
+Veja o exemplo de como trabalhar com o valor do comando ``return`` :
+
+Pense na função ``area_triangulo`` que vimos acima. 
+
+.. code-block:: python
+   :linenos:
+  
+    #Criando uma variável chamada "resultado" e atribuindo o valor da função "area_triangulo" nela
+    resultado = area_triangulo(8,10)
+ 
+ 
+.. code-block:: python
+   :linenos:
+  
+    #Imprimindo a variável chamada "resultado"
+    print(resultado)
+    
+    
+**Este é o resultado:**
+
+.. code-block:: python
+
+   >>> 40    
