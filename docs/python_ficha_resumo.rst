@@ -6,6 +6,6 @@ Test chapter
 
 Download button for an input file which is generated on the fly:
 
-.. only:: builder_html
+.. only:: readthedocs
    
-   See :download:`Archive with all inputs <_downloads/FICHA_RESUMO_PYTHON.pdf>`.
+   See :download:`Ficha Resumo <_downloads/FICHA_RESUMO_PYTHON.pdf>`.
