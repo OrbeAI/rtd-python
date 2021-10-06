@@ -182,7 +182,7 @@ Exemplo:
 -----------
 
 A forma mais comum de visualizar o DataFrame é usar o comando head() que nos mostra as primeiras linhas do DataFrame.
-Por padrão, o método head() mostra as primeiras cinco linhas, mas caso desejamos mais, basta informar a quantidade dentro dos parênteses do método.
+Por padrão, o método ``head()`` mostra as primeiras cinco linhas, mas caso desejamos mais, basta informar a quantidade dentro dos parênteses do método.
 Exemplo:
 
 .. code-block:: python
@@ -245,7 +245,7 @@ Quando não há espaços entre as palavras do nome da coluna.
 04.b.FORMATO DO DATAFRAME.
 --------
 
-Para entendermos o formato do DataFrame, ou seja, a quantidade de linhas e colunas, usamos a propriedade shape.
+Para entendermos o formato do DataFrame, ou seja, a quantidade de linhas e colunas, usamos a propriedade ``shape``.
 Exemplo:
 
 .. code-block:: python
@@ -257,7 +257,6 @@ Exemplo:
 
 
 .. code-block:: python
-   :linenos:
    
    >>> (23759, 9)
 
