@@ -48,6 +48,7 @@ Conteúdos
    
    pandas_introducao
    pandas_compreensao_dados
+   pandas_tratamentos_dados
 
 .. toctree::
    :caption: MACHINE LEARNING
