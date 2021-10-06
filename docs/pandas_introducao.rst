@@ -9,7 +9,7 @@ INTRODUÇÃO
 
 •	Pandas é uma biblioteca em Python para trabalhar com dados, como por exemplo nas seguintes etapas do roteiro de um projeto de dados:
 
-.. figure::  images_pandas/introducao/projeto_de_dados.png
+.. figure::  projeto_de_dados.png
    :align:   center
  
 COMPREENDER OS DADOS
