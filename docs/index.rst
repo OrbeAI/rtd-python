@@ -47,7 +47,7 @@ Conteúdos
    :maxdepth: 1
    
    pandas_introducao
-   
+   pandas_compreensao_dados
 
 .. toctree::
    :caption: MACHINE LEARNING
