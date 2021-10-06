@@ -50,6 +50,9 @@ Como importar o Pandas para o Jupyter Notebook e apelidar de pd.
 02.b.ANATOMIA DE UM DATAFRAME
 -------
 
+.. figure::  anatomia_dataframe.png
+   :align:   center
+
 DATASET (conjunto de dados)
 +++++++++
 
@@ -87,6 +90,7 @@ Basicamente há duas formas de se criar um DataFrame, uma a partir de poucos dad
 Para isso usamos o comando DataFrame( ) do Pandas, junto com os dados, para criar o objeto DataFrame. Como por exemplo usar uma estrutura de dados como o dicionário.
 
 CRIAR O DICIONÁRIO.
+++++++
 
 .. code-block:: python
    :linenos:
@@ -94,11 +98,27 @@ CRIAR O DICIONÁRIO.
    dados_da_corrida = {'Distância':[4,3,5,7],'Duração':[38,27,46,65]}
 
 CRIAR O DATAFRAME.
- 
+++++++
+
 .. code-block:: python
    :linenos:
    
-   df = pd.DataFrame(dados_da_corrida)
+   df_dic = pd.DataFrame(dados_da_corrida)
+
+
+IMPRIMIR O DATAFRAME.
+++++++
+
+.. code-block:: python
+   :linenos:
+
+   print(df_dic)
+   
+**Este é o resultado:**
+   
+.. figure::  df.dic.png
+   :align:   center
+
 
 03.b.CRIANDO UM DATAFRAME A PARTIR DE UM DATASET.
 ------
@@ -109,26 +129,51 @@ PRIMEIRO: COLOCAR O DATASET NO PROJETO.
 ++++++++++++
 
 •	Ir em arquivos na aba lateral do Google Colaboratory.
+
+.. figure::  arquivos_colaboratory.png
+   :align:   center
+
  
 •	Arrastar o dataset para a parte de arquivos.
 
+.. figure::  arrastar_planilha.png
+   :align:   center
  
 •	Clicar com o botão direito em cima da planilha e depois em “copiar caminho” ou “copy path”.
 
+.. figure::  copiar_caminho.png
+   :align:   center
  
 •	Substituir o “endereço do arquivo” pelo caminho copiado.
 
+.. figure::  copiar_caminho_resultado.png
+   :align:   center
  
 SEGUNDO: USAR OS MÉTODOS DO PANDAS PARA LER O ARQUIVO.
 ++++++++++++
 
-•	read_excel(“endereço do arquivo”) -> para ler arquivos do tipo planilha Excel.
-•	read_csv(“endereço do arquivo”) -> para ler arquivos do tipo csv.
-•	Criar o objeto a partir do operador de atribuição -> =
+•	``read_excel(“endereço do arquivo”)`` -> para ler arquivos do tipo planilha Excel.
+
+•	``read_csv(“endereço do arquivo”)`` -> para ler arquivos do tipo csv.
+
+•	Criar o objeto a partir do operador de atribuição -> ``=``
 
 Exemplo:
-•	df = pd.read_excel(“endereço do arquivo”)
 
+.. code-block:: python
+   :linenos:
+   
+   df = pd.read_excel(“endereço do arquivo”)
+   
+.. code-block:: python
+   :linenos:
+
+   print(df)
+   
+**Este é o resultado:**
+
+.. figure::  print_df.png
+   :align:   center
  
 04.COMANDOS BÁSICOS COM O DATAFRAME.
 ========
@@ -146,6 +191,9 @@ Exemplo:
    df.head()
    
 **Este é o resultado:**
+
+.. figure::  df_head.png
+   :align:   center
  
 Para visualizarmos somente os dados de uma coluna específica do DataFrame basta indicar o nome da coluna como a seguir.
 
@@ -158,7 +206,20 @@ Quando o nome da coluna possui espaços entre palavras.
    :linenos:
 
    df[‘HORA RETIRADA’].head()
-   
+
+**Este é o resultado:**
+
++---+---+
+| 0 | 5 |
++---+---+
+| 1 | 5 |
++---+---+
+| 2 | 5 |
++---+---+
+| 3 | 5 |
++---+---+
+| 4 | 5 |
++---+---+
 
 Quando não há espaços entre as palavras do nome da coluna.
 
@@ -166,7 +227,20 @@ Quando não há espaços entre as palavras do nome da coluna.
    :linenos:
 
    df.HORA_RETIRADA.head()
+   
+**Este é o resultado:**   
 
++---+---+
+| 0 | 5 |
++---+---+
+| 1 | 5 |
++---+---+
+| 2 | 5 |
++---+---+
+| 3 | 5 |
++---+---+
+| 4 | 5 |
++---+---+ 
  
 04.b.FORMATO DO DATAFRAME.
 --------
@@ -181,5 +255,9 @@ Exemplo:
    
 **Este é o resultado:**
 
- 
+
+.. code-block:: python
+   :linenos:
+   
+   >>> (23759, 9)
 
