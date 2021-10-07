@@ -59,6 +59,7 @@ Conteúdos
    matplotlib_barra
    matplotlib_histograma
    matplotlib_boxplot
+   folium_grafico_geografico
 
 .. toctree::
    :caption: MACHINE LEARNING
