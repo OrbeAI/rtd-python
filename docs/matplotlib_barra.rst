@@ -24,6 +24,7 @@ GRÁFICO DE BARRAS
 
 
 02.b.CRIANDO O DATAFRAME
+--------
 
 Para este grpafico usaremos uma base de dados ("olist_order_payments_dataset.xlsx") sobre pagamentos de pedidos da empresa de varejo online Olist.
 
@@ -102,7 +103,7 @@ Para este grpafico usaremos uma base de dados ("olist_order_payments_dataset.xls
 
 .. note::
   
-  1. Usar o método e os parâmetros figsize(altura,largura) se necessário.
+  1. Usar o método e os parâmetros ``figsize(altura,largura)`` se necessário.
   2. Repare que o gráfico de barras nos mostra a soma de cada categoria e por este motivo usamos o método value_counts() para fazer a soma de cada categoria.
  
  
