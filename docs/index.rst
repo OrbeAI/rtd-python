@@ -55,6 +55,8 @@ Conteúdos
    :maxdepth: 1
    
    matplotlib_introducao
+   matplotlib_linha
+   matplotlib_barra
 
 .. toctree::
    :caption: MACHINE LEARNING
