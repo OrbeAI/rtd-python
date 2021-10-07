@@ -1,4 +1,4 @@
-MATPLOTLIB: INTRODUÇÃO
+INTRODUÇÃO
 ************
 
 Matplotlib é uma das bibliotecas mais importantes de visualização de dados com Python, pois muitos outras bibliotecas de gráficos são baseadas nesta biblioteca.
