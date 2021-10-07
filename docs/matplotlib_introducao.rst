@@ -92,7 +92,7 @@ Lembrando que:
 
 •	``axes`` é de fato o nosso gráfico (plot) e dentro de uma figure podemos ter um ou vários axes.
 
-.. figure::  figure_axe.png
+.. figure::  figura_axe.png
    :align:   center
  
  
