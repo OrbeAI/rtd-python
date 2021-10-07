@@ -58,6 +58,7 @@ Conteúdos
    matplotlib_linha
    matplotlib_barra
    matplotlib_histograma
+   matplotlib_boxplot
 
 .. toctree::
    :caption: MACHINE LEARNING
