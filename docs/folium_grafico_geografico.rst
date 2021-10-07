@@ -20,7 +20,7 @@ Para instalar o Folium usamos o comando ``!pip install``:
 
  
 02.IMPORTANDO O FOLIUM.
------
+======
 
 Para importar o Folium usamos o comando ``import``:
 
@@ -30,7 +30,7 @@ Para importar o Folium usamos o comando ``import``:
    import folium
  
 03.CRIANDO UM MAPA COM FOLIUM.
------
+=======
 
 Para gerar um mapa usamos o método ``.Map()`` do Folium para criarmos um objeto (que é o próprio mapa).
 
