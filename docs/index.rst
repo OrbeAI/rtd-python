@@ -49,6 +49,12 @@ Conteúdos
    pandas_introducao
    pandas_compreensao_dados
    pandas_tratamentos_dados
+   
+.. toctree::
+   :caption: GRAFICOS
+   :maxdepth: 1
+   
+   matplotlib_introducao
 
 .. toctree::
    :caption: MACHINE LEARNING
