@@ -9,16 +9,26 @@ Usamos um histograma quando queremos entender a distribuição da **frequência 
 Exemplo: 
 
 Quantos produtos custam entre:
+
 •	0–100 reais
+
 •	101–200 reais
+
 •	201–300 reais
+
 •	301–400 reais
+
 •	401–500 reais
+
 •	501–600 reais
+
 •	601–700 reais
+
 •	701–800 reais
+
 •	801–900 reais
-•	901–1'000 reais
+
+•	901–1.000 reais
 
 .. figure::  grafico_histograma.png
    :align:   center
