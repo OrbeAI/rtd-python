@@ -66,3 +66,10 @@ Conteúdos
    :maxdepth: 1 
    
    machine_learning
+
+
+.. toctree::
+   :caption: AUTOMATIZANDO TAREFAS COM PYTHON 
+   :maxdepth: 1 
+   
+   machine_learning
