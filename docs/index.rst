@@ -72,4 +72,4 @@ Conteúdos
    :caption: AUTOMATIZANDO TAREFAS COM PYTHON 
    :maxdepth: 1 
    
-   machine_learning
+   rpa_pyautogui
