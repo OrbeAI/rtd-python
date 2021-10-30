@@ -67,6 +67,7 @@ Conteúdos
    
    aprendizado_supervisionado
    treinamento_modelo_classificacao
+   metricas_avaliacao
 
 
 .. toctree::
