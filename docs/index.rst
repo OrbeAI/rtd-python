@@ -65,7 +65,7 @@ Conteúdos
    :caption: MACHINE LEARNING
    :maxdepth: 1 
    
-   machine_learning
+   aprendizado_supervisionado.rst
 
 
 .. toctree::
