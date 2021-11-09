@@ -68,6 +68,12 @@ Conteúdos
    aprendizado_supervisionado
    treinamento_modelo_classificacao
    metricas_avaliacao
+   
+.. toctree::
+   :caption: MODULO 7
+   :maxdepth: 1 
+   
+   tarefa_regressao
 
 
 .. toctree::
