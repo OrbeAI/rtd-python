@@ -43,12 +43,27 @@ Lembrando que o algoritmo irá aprender com nossos dados e se tornará um modelo
 
 .. figure::  menor_erro.png
    :align:   center
+   
+   
+**Tipos de correlação**
+++++
 
+Para o algoritmo de regressão linear nós temos três tipos de correlação:
+
+- Correlação positiva que é quando se aumenta o ponto x, o ponto y necessariamente aumenta também e vice-versa
+
+- Correlação nula, onde não existe correlação entre os pontos
+
+- Correlação negativa, que é quando se aumenta o ponto x, o ponto y necessariamente diminui, e vice-versa.
+
+.. figure::  correlacoes.png
+   :align:   center
+
+Mas lembre-se! **Correlação NÃO é causualidade!** Ou seja, não é porque duas ou mais variáveis estão correlacionadas que elas necessariamente são a causa uma da outra! 
 
 **- Arvore de decisão**
 -----
 
-(disponibilizar imagem algoritmo – arvore de decisão) 
 .. figure::  arvore_decisao.png
    :align:   center
 
