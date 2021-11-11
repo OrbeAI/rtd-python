@@ -64,7 +64,7 @@ Mas lembre-se! **Correlação NÃO é causualidade!** Ou seja, não é porque du
 **- Arvore de decisão**
 -----
 
-.. figure::  arvore_decisao.png
+.. figure::  arvore_decisao2.png
    :align:   center
 
 O modelo visualmente falando do algoritmo árvore de decisão é justamente uma árvore onde é separado em raiz (começo da árvore), depois os nós que são perguntas e as folhas que são as respostas.
