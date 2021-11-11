@@ -74,6 +74,7 @@ Conteúdos
    :maxdepth: 1 
    
    tarefa_regressao
+   metrica_avaliacao_regressao
 
 
 .. toctree::
