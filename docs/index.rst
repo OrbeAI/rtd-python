@@ -81,6 +81,7 @@ Conteúdos
    :maxdepth: 1 
    
    aprendizado_nao_supervisionado
+   agrupamento_k_means
 
 
 .. toctree::
