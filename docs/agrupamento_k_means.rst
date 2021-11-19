@@ -29,6 +29,7 @@ APLICAÇÕES
 ----
 1.	Segmentação de Mercado:
 Criar uma estratégia de marketing para cada grupo.
+
 .. figure::  segmentacao_mercado.png
    :align:   center
 
