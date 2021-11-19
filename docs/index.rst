@@ -76,6 +76,12 @@ Conteúdos
    tarefa_regressao
    metrica_avaliacao_regressao
 
+.. toctree::
+   :caption: MODULO 8
+   :maxdepth: 1 
+   
+   aprendizado_nao_supervisionado
+
 
 .. toctree::
    :caption: AUTOMATIZANDO TAREFAS COM PYTHON 
