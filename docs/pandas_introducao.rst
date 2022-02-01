@@ -116,7 +116,7 @@ IMPRIMIR O DATAFRAME.
    
 **Este é o resultado:**
    
-.. figure::  df.dic.png
+.. figure::  df_dic.png
    :align:   center
 
 
